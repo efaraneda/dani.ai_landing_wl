@@ -1,5 +1,5 @@
 import { RiCheckboxBlankCircleFill } from "react-icons/ri";
-//import {Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 const Links = () => {
   return (
@@ -23,15 +23,16 @@ const Links = () => {
                <div className="flex flex-col">
                 
                 
-              {/* This is a single-line comment  <Link to='/' className="items-center md:h-10 md:w-20
+         <Link to='/' className="items-center md:h-10 md:w-20
                  text-center hover:text-primary hover:font-bold flex items-center">Inicio</Link>
+             <Link to='/privacidad' className="items-center md:h-10 md:w-20
+                 hover:text-primary hover:font-bold flex items-center">Privacidad</Link>
 
+{/*
                 <Link to='/roadmap' className="items-center md:h-10 md:w-20
                   hover:text-primary hover:font-bold flex items-center">Roadmap</Link> 
                 
-                <Link to='/privacidad' className="items-center md:h-10 md:w-20
-                 hover:text-primary hover:font-bold flex items-center">Privacidad</Link>
-
+   
                 <Link to='/research' className="items-center md:h-10 md:w-20
                  text-center hover:text-primary hover:font-bold flex items-center">Research</Link>
                  */}
@@ -48,12 +49,13 @@ const Links = () => {
               <h4 className="py-4 sm:py-1 mb-2 text-primary sm:font-bold">Comparte</h4>
 
                 <div className="flex flex-col ">
-                <a href="https://wa.me/?text=Mira, Esto está bacán!! https://dani.chat" target="_blank" data-action="share/whatsapp/share" className="py-2 hover:text-green-400 hover:font-bold">
+                <a href="https://wa.me/?text=Mira, Esto está bacán!! https://dani.chat" target="_blank" 
+                data-action="share/whatsapp/share" className="py-2 hover:text-green-400 hover:font-bold" rel='nofollow'>
                   Compartir en WhatsApp 
                   </a>
                   <a href="https://t.me/share/url?url=https://dani.chat&text=Mira, Esto está bacán!!" 
                       target="_blank" 
-                      className="py-2 hover:text-blue-500 hover:font-bold">
+                      className="py-2 hover:text-blue-500 hover:font-bold" rel='nofollow'>
                   Compartir en Telegram</a>
                   
 
@@ -69,10 +71,10 @@ const Links = () => {
           </div>
           <div className="absolute sm:flex sm:flex-row py-10 sm:py-1 mb-10 text-primary sm:font-bold">
           <div className="py-6">  
-            <a href="https://psicologogratis.ar/"><img src="arg-flag.webp" alt="Bandera de Argentina" className="w-[40px] h-[26px] rounded opacity-70 hover:opacity-100"></img></a>
+            <a href="https://psicologogratis.ar/"><img src="arg-flag.webp" alt="Bandera de Argentina" className="w-[40px] h-[26px] rounded opacity-70 hover:opacity-100" rel='nofollow'></img></a>
             </div>
               <div className="-py-4 sm:py-6 sm:px-2">
-                <a href="https://psicologogratis.cl/"><img src="cl-flag.svg" alt="Bandera de Chile" className="w-[40px] h-[26px] rounded opacity-70 hover:opacity-100"></img></a>
+                <a href="https://psicologogratis.cl/"><img src="cl-flag.svg" alt="Bandera de Chile" className="w-[40px] h-[26px] rounded opacity-70 hover:opacity-100" rel='nofollow'></img></a>
               </div>
           </div>
       </div>
