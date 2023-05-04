@@ -2,6 +2,85 @@
 # yarn lockfile v1
 
 
+"@amplitude/analytics-browser@^1.10.2":
+  version "1.10.2"
+  resolved "https://registry.npmjs.org/@amplitude/analytics-browser/-/analytics-browser-1.10.2.tgz"
+  integrity sha512-ObtqDg52WXevSpxI29b39DDq9zsagPuliT2SYKCOgsrAwWFZlZeUNvvl8MGxMqMsGxfA5faEdvsmjOcnCuRuWg==
+  dependencies:
+    "@amplitude/analytics-client-common" "^0.6.5"
+    "@amplitude/analytics-core" "^0.13.2"
+    "@amplitude/analytics-types" "^0.19.0"
+    "@amplitude/plugin-page-view-tracking-browser" "^0.7.3"
+    "@amplitude/plugin-web-attribution-browser" "^0.6.7"
+    "@amplitude/ua-parser-js" "^0.7.31"
+    tslib "^2.4.1"
+
+"@amplitude/analytics-client-common@^0.6.5":
+  version "0.6.5"
+  resolved "https://registry.npmjs.org/@amplitude/analytics-client-common/-/analytics-client-common-0.6.5.tgz"
+  integrity sha512-5eSa9PeNNkL5z+48wxNcR8mVJCGS1w1ipvl0j+pYo/pernI00gwjWXpasezYgGH83J9miJS8KKrYhoY1zQ5+OQ==
+  dependencies:
+    "@amplitude/analytics-connector" "^1.4.5"
+    "@amplitude/analytics-core" "^0.13.2"
+    "@amplitude/analytics-types" "^0.19.0"
+    tslib "^2.4.1"
+
+"@amplitude/analytics-connector@^1.4.5":
+  version "1.4.7"
+  resolved "https://registry.npmjs.org/@amplitude/analytics-connector/-/analytics-connector-1.4.7.tgz"
+  integrity sha512-XjkFmVnJuPcRAQyPDs3LR3uam0jjDzBsT8ZABlWoV3iypRY7d+gs3ijDn2c4UU5XIjsR9GqzHCbZG3w7T+t6tQ==
+  dependencies:
+    "@amplitude/ua-parser-js" "^0.7.31"
+
+"@amplitude/analytics-core@^0.13.2":
+  version "0.13.2"
+  resolved "https://registry.npmjs.org/@amplitude/analytics-core/-/analytics-core-0.13.2.tgz"
+  integrity sha512-9jzTuMOFEXt3udMlHr6VgTcTeifPOwyKwf0R3XncnBfFWt5+M3+vDZoksGPLwTaQn/pukpw74jR0FzxNEh/jqw==
+  dependencies:
+    "@amplitude/analytics-types" "^0.19.0"
+    tslib "^2.4.1"
+
+"@amplitude/analytics-types@^0.19.0":
+  version "0.19.0"
+  resolved "https://registry.npmjs.org/@amplitude/analytics-types/-/analytics-types-0.19.0.tgz"
+  integrity sha512-xECFyB40KZdmlvlF76iLp+YO9Tpt2/Ha5S34MrE7Q26gzyTh+vgwGS8FaqYGBzcGeMqKFYDja1hoF/onS94GrA==
+
+"@amplitude/marketing-analytics-browser@^0.7.2":
+  version "0.7.2"
+  resolved "https://registry.npmjs.org/@amplitude/marketing-analytics-browser/-/marketing-analytics-browser-0.7.2.tgz"
+  integrity sha512-5gWIbOw99ykzdfK9trwytoFBQYo66HuN8euL5SeV8YQH2/K5mD3gCtIYJ95uTdIOA74V12sYJ5/EucUPDKvJbg==
+  dependencies:
+    "@amplitude/analytics-browser" "^1.10.2"
+    "@amplitude/analytics-client-common" "^0.6.5"
+    "@amplitude/analytics-core" "^0.13.2"
+    "@amplitude/analytics-types" "^0.19.0"
+    "@amplitude/plugin-page-view-tracking-browser" "^0.7.3"
+    "@amplitude/plugin-web-attribution-browser" "^0.6.7"
+    tslib "^2.4.1"
+
+"@amplitude/plugin-page-view-tracking-browser@^0.7.3":
+  version "0.7.3"
+  resolved "https://registry.npmjs.org/@amplitude/plugin-page-view-tracking-browser/-/plugin-page-view-tracking-browser-0.7.3.tgz"
+  integrity sha512-ipDKlNbzsjj7QUval4FQwCeIXPaqaX6cptcq5EoAGn1fBhinPvC2zXLRhNbMHUCJt++Rki3jEHb/r0ABmB/oMA==
+  dependencies:
+    "@amplitude/analytics-client-common" "^0.6.5"
+    "@amplitude/analytics-types" "^0.19.0"
+    tslib "^2.4.1"
+
+"@amplitude/plugin-web-attribution-browser@^0.6.7":
+  version "0.6.7"
+  resolved "https://registry.npmjs.org/@amplitude/plugin-web-attribution-browser/-/plugin-web-attribution-browser-0.6.7.tgz"
+  integrity sha512-3QuaiuonQ0fqFOXnIIEGQwVklcBQ3Ui+eaFDhgqCTBjo2c5wm5xKbGAqFh9tc0zxg2/kHZRgJ6OR9tUnooCdAA==
+  dependencies:
+    "@amplitude/analytics-client-common" "^0.6.5"
+    "@amplitude/analytics-types" "^0.19.0"
+    tslib "^2.4.1"
+
+"@amplitude/ua-parser-js@^0.7.31":
+  version "0.7.33"
+  resolved "https://registry.npmjs.org/@amplitude/ua-parser-js/-/ua-parser-js-0.7.33.tgz"
+  integrity sha512-wKEtVR4vXuPT9cVEIJkYWnlF++Gx3BdLatPBM+SZ1ztVIvnhdGBZR/mn9x/PzyrMcRlZmyi6L56I2J3doVBnjA==
+
 "@ampproject/remapping@^2.2.0":
   version "2.2.1"
   resolved "https://registry.npmjs.org/@ampproject/remapping/-/remapping-2.2.1.tgz"
@@ -272,6 +351,11 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
+
+"@remix-run/router@1.6.0":
+  version "1.6.0"
+  resolved "https://registry.npmjs.org/@remix-run/router/-/router-1.6.0.tgz"
+  integrity sha512-N13NRw3T2+6Xi9J//3CGLsK2OqC8NMme3d/YX+nh05K9YHWGcv8DycHJrqGScSP4T75o8IN6nqIMhVFU8ohg8w==
 
 "@tailwindcss/typography@^0.5.9":
   version "0.5.9"
@@ -603,6 +687,11 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
+classnames@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.npmjs.org/classnames/-/classnames-2.3.2.tgz"
+  integrity sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==
+
 collection-visit@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/collection-visit/-/collection-visit-1.0.0.tgz"
@@ -730,6 +819,11 @@ decode-uri-component@^0.2.0:
   version "0.2.2"
   resolved "https://registry.npmjs.org/decode-uri-component/-/decode-uri-component-0.2.2.tgz"
   integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
+
+deepmerge@^4.0.0:
+  version "4.3.1"
+  resolved "https://registry.npmjs.org/deepmerge/-/deepmerge-4.3.1.tgz"
+  integrity sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==
 
 define-property@^0.2.5:
   version "0.2.5"
@@ -1429,6 +1523,11 @@ live-server@^1.2.2:
     send latest
     serve-index "^1.9.1"
 
+load-script@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/load-script/-/load-script-1.0.0.tgz"
+  integrity sha512-kPEjMFtZvwL9TaZo0uZ2ml+Ye9HUMmPwbYRJ324qF9tqMejwykJ5ggTyvzmrbBeapCAbk98BSbTeovHEEP1uCA==
+
 lodash.castarray@^4.4.0:
   version "4.4.0"
   resolved "https://registry.npmjs.org/lodash.castarray/-/lodash.castarray-4.4.0.tgz"
@@ -1486,6 +1585,11 @@ map-visit@^1.0.0:
   integrity sha512-4y7uGv8bd2WdM9vpQsiQNo41Ln1NvhvDRuVt0k2JZQ+ezN2uaQes7lZeZ+QQUHOLQAtDaBJ+7wCbi+ab/KFs+w==
   dependencies:
     object-visit "^1.0.0"
+
+memoize-one@^5.1.1:
+  version "5.2.1"
+  resolved "https://registry.npmjs.org/memoize-one/-/memoize-one-5.2.1.tgz"
+  integrity sha512-zYiwtZUcYyXKo/np96AGZAckk+FWWsUdJ3cHGGmld7+AhvcWmQyGCYUh1hc4Q/pkOhb65dQR/pqCyK0cOaHz4Q==
 
 merge2@^1.3.0:
   version "1.4.1"
@@ -1870,13 +1974,18 @@ range-parser@~1.2.1:
   resolved "https://registry.npmjs.org/range-parser/-/range-parser-1.2.1.tgz"
   integrity sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==
 
-"react-dom@^15.5.4 || ^16.0.0 || ^17.0.0 || ^18.0.0", react-dom@^18.2.0:
+"react-dom@^15.5.4 || ^16.0.0 || ^17.0.0 || ^18.0.0", react-dom@^18.2.0, "react-dom@>= 16.8.0", react-dom@>=16.8:
   version "18.2.0"
   resolved "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   integrity sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==
   dependencies:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
+
+react-fast-compare@^3.0.1:
+  version "3.2.1"
+  resolved "https://registry.npmjs.org/react-fast-compare/-/react-fast-compare-3.2.1.tgz"
+  integrity sha512-xTYf9zFim2pEif/Fw16dBiXpe0hoy5PxcD8+OwBnTtNLfIm3g6WxhKNurY+6OmdH1u6Ta/W/Vl6vjbYP1MFnDg==
 
 react-icons@^4.8.0:
   version "4.8.0"
@@ -1888,10 +1997,36 @@ react-is@^16.13.1:
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
+react-player@^2.12.0:
+  version "2.12.0"
+  resolved "https://registry.npmjs.org/react-player/-/react-player-2.12.0.tgz"
+  integrity sha512-rymLRz/2GJJD+Wc01S7S+i9pGMFYnNmQibR2gVE3KmHJCBNN8BhPAlOPTGZtn1uKpJ6p4RPLlzPQ1OLreXd8gw==
+  dependencies:
+    deepmerge "^4.0.0"
+    load-script "^1.0.0"
+    memoize-one "^5.1.1"
+    prop-types "^15.7.2"
+    react-fast-compare "^3.0.1"
+
 react-refresh@^0.14.0:
   version "0.14.0"
   resolved "https://registry.npmjs.org/react-refresh/-/react-refresh-0.14.0.tgz"
   integrity sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==
+
+react-router-dom@^6.11.0:
+  version "6.11.0"
+  resolved "https://registry.npmjs.org/react-router-dom/-/react-router-dom-6.11.0.tgz"
+  integrity sha512-Q3mK1c/CYoF++J6ZINz7EZzwlgSOZK/kc7lxIA7PhtWhKju4KfF1WHqlx0kVCIFJAWztuYVpXZeljEbds8z4Og==
+  dependencies:
+    "@remix-run/router" "1.6.0"
+    react-router "6.11.0"
+
+react-router@6.11.0:
+  version "6.11.0"
+  resolved "https://registry.npmjs.org/react-router/-/react-router-6.11.0.tgz"
+  integrity sha512-hTm6KKNpj9SDG4syIWRjCU219O0RZY8RUPobCFt9p+PlF7nnkRgMoh2DieTKvw3F3Mw6zg565HGnSv8BuoY5oQ==
+  dependencies:
+    "@remix-run/router" "1.6.0"
 
 react-scroll@^1.8.9:
   version "1.8.9"
@@ -1901,7 +2036,7 @@ react-scroll@^1.8.9:
     lodash.throttle "^4.1.1"
     prop-types "^15.7.2"
 
-react@*, "react@^15.5.4 || ^16.0.0 || ^17.0.0 || ^18.0.0", react@^18.2.0:
+react@*, "react@^15.5.4 || ^16.0.0 || ^17.0.0 || ^18.0.0", react@^18.2.0, "react@>= 16.8.0", react@>=16.6.0, react@>=16.8:
   version "18.2.0"
   resolved "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
@@ -2207,6 +2342,18 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
+tailwind-merge@^1.3.0:
+  version "1.12.0"
+  resolved "https://registry.npmjs.org/tailwind-merge/-/tailwind-merge-1.12.0.tgz"
+  integrity sha512-Y17eDp7FtN1+JJ4OY0Bqv9OA41O+MS8c1Iyr3T6JFLnOgLg3EvcyMKZAnQ8AGyvB5Nxm3t9Xb5Mhe139m8QT/g==
+
+tailwind-styled-components@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.npmjs.org/tailwind-styled-components/-/tailwind-styled-components-2.2.0.tgz"
+  integrity sha512-Ogemwk0p69aU8WE/ooJZHjqstdJgT5R6HGU6TFz2uSnveSEtvW+C6aWOjGCvCr5H/bREv0IbbQ4yODknRrLBRQ==
+  dependencies:
+    tailwind-merge "^1.3.0"
+
 tailwindcss@^3.3.1, "tailwindcss@>=3.0.0 || insiders":
   version "3.3.1"
   resolved "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.3.1.tgz"
@@ -2302,6 +2449,11 @@ ts-interface-checker@^0.1.9:
   version "0.1.13"
   resolved "https://registry.npmjs.org/ts-interface-checker/-/ts-interface-checker-0.1.13.tgz"
   integrity sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==
+
+tslib@^2.4.1:
+  version "2.5.0"
+  resolved "https://registry.npmjs.org/tslib/-/tslib-2.5.0.tgz"
+  integrity sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==
 
 union-value@^1.0.0:
   version "1.0.1"
