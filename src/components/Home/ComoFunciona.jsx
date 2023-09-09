@@ -20,9 +20,9 @@ const WidgetComponent = () => {
   </div>
   {/* div color navy */}
   <div className='md:grid md:grid-cols-4 md:w-[70%] md:h-[400px] 
-  bg-navy md:rounded-lg sm:w-full sm:h-[130vh]'>
+  bg-navy md:rounded-lg sm:w-full sm:h-auto'>
 
-          <div className='max-h-[400px] sm:max-w-[80%] sm:mt-28 sm:-mb-8'>
+          <div className='max-h-[400px] sm:max-w-[80%] sm:mt-24 sm:-mb-8'>
               <div className='sm:mt-16 sm:mx-auto md:mt-14 flex justify-center items-center transform translate-x-1/2 -translate-y-1/2 rounded-full w-[56px] h-[56px] bg-lavanda'>
                 <MdMemory className='text-4xl text-crayola'/>  
               </div>
@@ -43,7 +43,7 @@ const WidgetComponent = () => {
               <div><div className='sm:mt-32 sm:text-center  sm:ml-8 text-white text-sm font-light  md:mt-14   
               items-center transform translate-x-4 -translate-y-28 md:ml-3 md:w-[80%] md:mt-36 sm:text-lg'>Cada mensaje que envías puede activar hasta 14 algoritmos que procesan información, por eso la <a className='font-bold'>conversación siempre es asertiva y enriquecedora</a>.</div></div></div>
           <div className='max-h-[400px] sm:max-w-[80%] sm:-mb-6'>
-            <div className='sm:mt-12 sm:mx-auto md:mt-14 flex justify-center items-center transform translate-x-1/2 -translate-y-1/2 rounded-full w-[56px] h-[56px] bg-lavanda'>
+            <div className='sm:mt-16 sm:mx-auto md:mt-14 flex justify-center items-center transform translate-x-1/2 -translate-y-1/2 rounded-full w-[56px] h-[56px] bg-lavanda'>
           <VscChecklist className='text-4xl text-crayola' /></div>
           <div className='sm:ml-12 sm:text-center sm:text-xl md:text-lg md:ml-7 font-bold text-white'>
                 Metodología & principios
@@ -53,12 +53,12 @@ const WidgetComponent = () => {
   </div>
 {/* div color navy 2 - version small devices */}
   <div className='md:hidden md:grid md:grid-cols-4 md:w-[70%] md:h-[400px]  
-  bg-navy md:rounded-lg sm:w-full sm:h-[145vh]'>
+  bg-navy md:rounded-lg sm:w-full sm:h-[auto]'>
           <div className='max-h-[400px] sm:max-w-[80%] sm:-mb-6'>
-              <div className='sm:mt-16 sm:mx-auto md:mt-14 flex justify-center items-center transform translate-x-1/2 -translate-y-1/2 rounded-full w-[56px] h-[56px] bg-lavanda'>
+              <div className='sm:mt-14 sm:mx-auto md:mt-14 flex justify-center items-center transform translate-x-1/2 -translate-y-1/2 rounded-full w-[56px] h-[56px] bg-lavanda'>
                 <BiSolidLockAlt className='text-4xl text-crayola'/>  
               </div>
-              <div className='sm:ml-12 sm:text-center  text-xl md:ml-7 font-bold text-white'>
+              <div className='sm:ml-12 sm:text-center text-xl md:ml-7 font-bold text-white'>
               Privado
               </div>
               <div className='sm:mt-32 sm:text-center sm:ml-8 text-white text-sm font-light md:mt-14    
@@ -69,13 +69,13 @@ const WidgetComponent = () => {
               <div className='sm:mt-16 sm:mx-auto md:mt-14 flex justify-center items-center transform translate-x-1/2 -translate-y-1/2 rounded-full w-[56px] h-[56px] bg-lavanda'>
                 <AiFillHeart className='text-4xl text-crayola'/>
               </div>
-              <div className='sm:ml-12 sm:text-center text-xl  ml-7 font-bold text-white'>
+              <div className='sm:ml-10 sm:text-center text-xl  ml-7 font-bold text-white'>
                 Fácil
               </div>
               <div><div className='sm:mt-32 sm:text-center  sm:ml-8 text-white text-sm font-light  md:mt-14   
               items-center transform translate-x-4 -translate-y-28 md:ml-3 md:w-[80%] md:mt-36'>Abre <a className='font-bold sm:text-lg'>WhatsApp, saluda 👋 y ¡comienza la terapia!</a> No más trámites, listas de espera, ni agendas.</div></div></div>
           <div className='max-h-[400px] sm:max-w-[80%] sm:-mb-6'>
-            <div className='sm:mt-12 sm:mx-auto md:mt-14 flex justify-center items-center transform translate-x-1/2 -translate-y-1/2 rounded-full w-[56px] h-[56px] bg-lavanda'>
+            <div className='sm:mt-16 sm:mx-auto md:mt-14 flex justify-center items-center transform translate-x-1/2 -translate-y-1/2 rounded-full w-[56px] h-[56px] bg-lavanda'>
           <MdAttachMoney className='text-4xl text-crayola' /></div>
           <div className='sm:ml-12 sm:text-center md:ml-7 text-xl font-bold text-white'>
           Barato

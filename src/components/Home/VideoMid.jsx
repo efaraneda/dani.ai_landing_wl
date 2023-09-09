@@ -15,19 +15,17 @@ const VideoPlayer = () => {
 
   return (
     <div className="bg-white flex flex-col items-center relative h-auto sm:mt-14 sm:mb-14">
-      <video
-        ref={videoRef}
-        controlsList="nodownload"
-        id="acceso"
-        src="Theragen 1.mp4"
-        className="sm:w-[90%] sm:h-[auto] sm:mt-20 md:mb-10 md:h-auto md:w-[80%]"
-      ></video>
-      <button
-        onClick={handlePlayClick}
-        className="bottom-1/2 sm:-mt-12 sm:px-6 sm:ml-6 bg-transparent border-2 -mt-24 -left-1/3 transform -translate-x-1/5 relative bg-black font-semibold text-lg text-white px-10 py-0 z-10"
-      >
-        {isPlaying ? 'Pausar' : 'Ver'}
-      </button>
+      <iframe
+      title="Conoce a DaniGPT"
+      controlsList="nodownload"
+      src="https://www.youtube.com/embed/kIKDMr3Xylc?vq=small"
+      frameborder="0"
+      id="acceso"
+      allowfullscreen
+      className="sm:w-[90%] sm:h-[60vh] sm:mt-20 md:mb-10 md:h-[90vh] md:w-[80%]"
+    ></iframe>
+
+
       <div className='hidden sm:w-[90%] md:w-[80%] mt-10'>
           <div className="md:border md:border-gray-500">
             <div className="sm:w-[100%] w-[80%] justify-left xl:w-[70%] xl:ml-36 md:ml-16 md:mt-20">
