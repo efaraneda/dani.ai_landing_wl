@@ -1,8 +1,3 @@
-<<<<<<< HEAD
 User-agent: *
 Allow: /
-Sitemap: https://theragen.ai/sitemap.xml
-=======
-User-agent: *
-Allow: /
->>>>>>> fe656b653a5458e6333cc1de0968e39a76962af9
+Sitemap: https://psicologogratis.cl/sitemap.xml

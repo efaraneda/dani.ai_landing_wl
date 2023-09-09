@@ -33,7 +33,8 @@ export default {
       
       },
       fontFamily: {
-        'default': ['Noto Sans', 'sans']      },
+        'default': ['Noto Sans', 'sans']      
+      },
     },
   },
   plugins: [
