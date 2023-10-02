@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-scroll";
 import {
   RiMenu3Fill,
   RiCloseLine
@@ -14,7 +15,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-primary flex justify-between xl:justify-start w-full py-4 md:px-40 h-[10vh] z-50">
+    <header className="bg-primary flex justify-between xl:justify-start w-full py-4 px-8 xl:px-42 h-[10vh] z-50">
       <div className="xk:w-1/6 flex items-center sm:py-4">
         <img src="theragen_bold_white.png" className='h-[40px]' alt="Theragen" />
         <a className="text-2xl text-white font-medium ">
@@ -23,22 +24,28 @@ const Header = () => {
       </div>
 
       <nav
-        className={`fixed text-white font-normal bg-primary -mr-40 w-[80%] md:w-[40%] xl:w-full h-full ${
+        className={`fixed text-white font-normal bg-primary w-[80%] md:w-[40%] xl:w-full h-full ${
           showMenu ? "left-0" : "-left-full"
         } top-0 xl:static flex-1 flex flex-col xl:flex-row items-center justify-center gap-10 transition-all duration-500 z-50`}
       >
-        <a
+        <Link
+          to="acceso"
+          smooth={true}
+          duration={1350}
           className="hover:text-gray-400 cursor-pointer"
-          href="https://theragen.ai" // Close the menu when link is clicked
+          onClick={closeMenu} // Close the menu when link is clicked
         >
           ¿Cómo funciona?
-        </a>
-        <a
-          href="https://theragen.ai"
+        </Link>
+        <Link
+          to="acceso"
+          smooth={true}
+          duration={1350}
           className="hover:text-gray-400 cursor-pointer"
+          onClick={closeMenu} // Close the menu when link is clicked
         >
           Más información
-        </a>
+        </Link>
       </nav>
       <button
         onClick={() => setShowMenu(!showMenu)}
