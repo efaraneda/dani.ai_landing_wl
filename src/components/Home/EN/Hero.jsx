@@ -16,8 +16,8 @@ emotional assessment </span>
             <h2>
               <div className='text-white leading-[1.5rem] xl:max-w-lg font-thin'>
                 <div>
-                DaniGPT is an Artificial Intelligence designed to conduct psychological assessments on individuals and assist them in structuring their issues. 
-                  </div>
+                DaniGPT evaluates you psychologically, helps you understand and structure your issues, and matches you with your ideal psychologist— all within just 50 minutes of interaction!
+                </div>
               </div>
             </h2>
             <br/>

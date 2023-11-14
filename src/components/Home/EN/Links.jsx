@@ -21,7 +21,7 @@ const Links = () => {
         </div>
 
         <p className="sm:-mt-10 px-14 py-10 h-auto md:ml-14 sm:-mr-2 sm:mb-14">
-        Theragen is a laboratory specialized in the creation of autonomous systems that simulate human behavior in psychotherapy applications.</p>
+        We are designing autonomous systems for psychotherapy applications.</p>
       </div>
 
       <div className="sm:px-14 sm:py-6 flex sm:flex-row flex-col items-center justify-left">
@@ -42,7 +42,9 @@ const Links = () => {
                     How does it work?
                   </Link>        
                   <a href='https://forms.gle/gtRYaUVNSJvsP4EA6' className="items-center md:h-10 md:w-auto
-                  text-center hover:text-primary py-2 flex items-center " target="_blank" rel='nofollow'>Are you a psychotherapist?</a>
+                  text-center hover:text-primary py-2 flex items-center " target="_blank" rel='nofollow'>Are you a therapist?</a>
+                  <a href='https://theragen.ai/terminos' className="items-center md:h-10 md:w-auto
+                  text-center hover:text-primary py-2 flex items-center sm:mb-8" target="_blank" rel='nofollow'>Terms & conditions</a>
                  </div>
                 
 
@@ -50,22 +52,26 @@ const Links = () => {
         </div>
       </div>
 
+      
       <div className="sm:-mb-60 sm:px-14 flex  sm:mt-10 sm:flex-row flex-col items-center justify-left">
           <div className="flex items-center">
               <div className="sm:mt-14">
-              <h4 className="py-4 sm:py-1 mb-2 text-primary sm:font-bold">Social</h4>
+              <h4 className="py-4 sm:mt-2 mb-2 text-primary sm:font-bold">Social</h4>
 
-                <div className="flex flex-col ">
+              <div className="flex flex-col ">
+                <a href="https://www.instagram.com/dani.gpt/" target="_blank" className="py-2 hover:text-blue-600" rel='nofollow'>
+                  Instagram 
+                  </a>
                 <a href="https://www.linkedin.com/company/theragen-ai/about/" target="_blank" className="py-2 hover:text-blue-600" rel='nofollow'>
                   LinkedIn 
                   </a>
-                  <a href="https://www.facebook.com/profile.php?id=61550567952924" 
+                  <a href="https://www.facebook.com/profile.php?id=61553358064708" 
                       target="_blank" 
                       className="py-2 hover:text-blue-500" rel='nofollow'>
                   Facebook</a>
                   <a href="https://www.youtube.com/channel/UCbyIp7bIEp3cdfEoSmzjm0Q" 
                       target="_blank" 
-                      className="py-2 hover:text-red-500" rel='nofollow'>
+                      className="py-2 sm:mb-8 hover:text-red-500" rel='nofollow'>
                   Youtube</a>
                   
 
@@ -73,7 +79,7 @@ const Links = () => {
               </div>
           </div>
       </div>
-      <div className="sm:px-14 sm:py-10 flex sm:flex-row flex-col items-center justify-left">
+      <div className="sm:px-14 sm:py-10 sm:mb-8 flex sm:flex-row flex-col items-center justify-left">
           <div className="flex items-center">
           <div>
 
@@ -88,4 +94,3 @@ const Links = () => {
 };
 
 export default Links;
-

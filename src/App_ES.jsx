@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/ES/Home";
 import Error404 from "./pages/ES/Error404";
 import Privacidad from "./pages/ES/Privacidad";
+import Terminos from "./pages/ES/Terminos";
 
 function App() { 
   return (
@@ -11,6 +12,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/privacidad" element={<Privacidad/>} /> 
+      <Route path="/terminos" element={<Terminos/>} /> 
       <Route index element={<Home/>} />      
       <Route path="*" element={<Error404/>} />
     </Routes>

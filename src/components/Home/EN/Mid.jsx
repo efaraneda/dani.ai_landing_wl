@@ -30,7 +30,7 @@ const VideoPlayer = () => {
     </h2>
     <div className="md:hidden grid grid-rows-2">
       <div className="flex flex-col items-center justify-center">
-        <div className="w-[80%] py-0.5 shadow-md border border-gray-400 rounded-xl">
+        <div className="w-[85%] py-0.5 shadow-md border border-gray-400 rounded-xl">
           <div className="flex justify-center items-center">
                           <div
                             className={`${
@@ -40,7 +40,7 @@ const VideoPlayer = () => {
                             }`}
                             onClick={() => handleButtonClick('Inicio')}
                           >
-                            <h3>Beginning</h3>
+                            <h3>Start</h3>
                           </div>
                           <div
                             className={`${
@@ -48,8 +48,8 @@ const VideoPlayer = () => {
                               : 'cursor-pointer py-1 px-4 border border-white rounded-xl text-center relative'
                             }`}
                             onClick={() => handleButtonClick('Durante')}
-                          >
-                            <a>During</a>
+                          > 
+                            <a>Middle</a>
                           </div>
                           <div
                             className={`${
@@ -58,7 +58,7 @@ const VideoPlayer = () => {
                             }`}
                             onClick={() => handleButtonClick('Fin')}
                           >
-                            <a>Ending</a>
+                            <a>End</a>
                           </div>
                           <div
                             className={`${
@@ -77,7 +77,7 @@ const VideoPlayer = () => {
                         {isButtonActive('Inicio') ? "To get started, open WhatsApp, look for Dani's WhatsApp ( +56 9 8587 7944 ), say hello 👋 and start the assessment!" : 
                         isButtonActive('Durante') ? 'During the assessment, Dani will ask you various types of questions throughout the evaluation. You can respond with text or voice messages.' : 
                         isButtonActive('Fin') ? 'At the end of the assessment, Dani will automatically send you a PDF file through WhatsApp. This file contains your entire case structured to help you and other professionals understand your emotions.' : 
-                        isButtonActive('PDF') ? 'Review this example case. All cases have the same structure, but their content varies depending on the context and particulars of each one.' : ''}
+                        isButtonActive('PDF') ? 'Review this example case. All cases have the same structure, but their content varies depending on the context of each one.' : ''}
                       </div>
                     </div>
                   </div>
@@ -174,7 +174,7 @@ const VideoPlayer = () => {
             {isButtonActive('Inicio') ? "To get started, open WhatsApp, look for Dani's WhatsApp ( +56 9 8587 7944 ), say hello 👋 and start the assessment!" : 
             isButtonActive('Durante') ? 'During the assessment, Dani will ask you various types of questions throughout the evaluation. You can respond with text or voice messages.' :
             isButtonActive('Fin') ? 'At the end of the assessment, Dani will automatically send you a PDF file through WhatsApp. This file contains your entire case structured to help you and other professionals understand your emotions.' :
-             isButtonActive('PDF') ? 'Review this example case. All cases have the same structure, but their content varies depending on the context and particulars of each one.' : ''}
+             isButtonActive('PDF') ? 'Review this example case. All cases have the same structure, but their content varies depending on the context of each one.' : ''}
           </div>
       </div>
     </div>

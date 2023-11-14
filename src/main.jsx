@@ -25,7 +25,7 @@ const fetchGeolocation = () => {
 };
 
 const renderApp = (country) => {
-  if ((!userAgent.includes('oogle')) && (navigator.language === 'en-US') && (country === 'United States')) {
+  if ((!navigator.userAgent.includes('oogle')) && (navigator.language === 'en-US') && (country === 'United States')) {
     ReactDOM.createRoot(document.getElementById('root')).render(
       <React.StrictMode>
         <App_EN />

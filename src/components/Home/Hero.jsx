@@ -15,8 +15,8 @@ const Hero = () => {
             <h2>
               <div className='text-white leading-[1.5rem] xl:max-w-lg font-thin'>
                 <div>
-                 DaniGPT es una Inteligencia Artificial diseñada para realizar <a className="font-bold">evaluaciones psicológicas</a> a las personas y ayudarlas a <a className="font-bold">estructurar sus problemas</a> 
-                  </div>
+                DaniGPT <a className="font-bold">te evalúa</a> psicológicamente, te ayuda a <a className="font-bold">comprender</a> y <a className="font-bold">estructurar</a> tus problemas, y busca el match perfecto con tu psicólogo ideal — ¡todo en solo 50 minutos de interacción!              </div>
+                
               </div>
             </h2>
             <br/>
