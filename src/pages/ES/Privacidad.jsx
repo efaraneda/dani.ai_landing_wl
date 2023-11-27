@@ -50,17 +50,17 @@ REGISTRO Y RECOLECCIÓN DE DATOS
 
                 </h2>
                 <p>
-                En el caso de los Usuarios, el registro se realiza automáticamente al iniciar una conversación con DaniGPT. La información recopilada, incluye:
+                <h3 className="font-bold mb-4">USUARIOS</h3> <div>El registro se realiza automáticamente al iniciar una conversación con DaniGPT. La información recopilada, incluye:
 Numero de telefono, Información de inicio de sesión y atribución de marketing digital, Información sobre el uso de nuestro sitio web y servicios, como las páginas que visitas y la interacción con las mismas.
 Además, podemos recopilar datos personales automáticamente a través de cookies y otras tecnologías de seguimiento cuando visitas nuestra landing page.
-Información compartida explícita y libremente con DaniGPT.
+Información compartida explícita y libremente con DaniGPT.</div>
 
 
-En el caso de los Psicólogos, el registro se realiza a través del formulario de derivación de pacientes, y es requisito obligatorio para la integración del servicio, contar con una cuenta de Google. Esto facilita el acceso personalizado, confidencial y seguro al sitio.
+<h3 className="mt-8 font-bold mb-4" >PSICOLÓGOS</h3> <div>El registro se realiza a través del formulario de derivación de pacientes, y es requisito obligatorio para la integración del servicio, contar con una cuenta de Google. Esto facilita el acceso personalizado, confidencial y seguro al sitio.
 
 El psicólogo, deberá darle acceso a Theragen a su calendario de Google.
 
-Respecto de la confidencialidad del usuario y contraseña de la cuenta de Google será responsable el usuario.
+Respecto de la confidencialidad del usuario y contraseña de la cuenta de Google será responsable el usuario. Theragen declara que el uso y transferencia a cualquier aplicación, de información recibida desde APIs de Google, se adhiere a las <a href="https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes" className="underline italic">políticas de datos de usuarios de Google</a>, incluidos los requisitos de uso limitado.</div>
           </p>
           <h2 className="flex flex-col items-left justify-left  text-3xl sm:text-xl
           font-bold text-oxford mb-10 sm:max-w-xs h-16 mt-20">
