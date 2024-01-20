@@ -23,8 +23,20 @@ const VideoPlayer = () => {
   };
 
   return (
+
 <div> 
-<div className='bg-white w-full'>
+<div className='bg-slate-200 w-full md:h-[18vh] sm:h-[14vh]'>
+<div><h4 id="funciona" className=' flex flex-col items-center sm:py-2 sm:mb-4 justify-center md:py-2 md:text-[3vh] font-semibold text-center text-slate-400'>
+      Confían en nosotros
+    </h4></div>
+  <div className='flex items-center justify-center md:-mt-1 sm:-mt-3'>
+    <img src="aws.png" alt="aws icon" class=" w-auto md:h-[8vh] sm:h-[4vh]"></img>
+    <img src="trust.png" alt="aws icon" class="px-64 w-auto md:h-[8vh] sm:h-[5vh] sm:px-12 sm:-mt-2"></img>
+    <img src="google.webp" alt="aws icon" class=" w-auto md:h-[9vh] sm:h-[5vh]"></img>  
+  </div>
+</div>
+
+<div className='bg-white w-full -mt-14'>
     <h2 id="funciona" className='md:hidden mt-20 flex flex-col items-center  justify-center text-3xl font-bold text-center text-oxford'>
       ¿Cómo funciona?
     </h2>

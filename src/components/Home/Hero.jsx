@@ -15,8 +15,7 @@ const Hero = () => {
             <h2>
               <div className='text-white leading-[1.5rem] xl:max-w-lg font-thin'>
                 <div>
-                DaniGPT <a className="font-bold">te evalúa</a> psicológicamente, te ayuda a <a className="font-bold">comprender</a> y <a className="font-bold">estructurar</a> tus problemas, y busca el match con tu psicólogo ideal — ¡todo en solo 40 minutos de interacción!              </div>
-                
+              DaniGPT <a className="font-bold">te evalúa</a> psicológicamente, te ayuda a <a className="font-bold">comprender</a> tus problemas, y busca el <a className="font-bold">Match</a> con TU psicólogo ideal — ¡todo en 40 minutos, gratis y en WhatsApp!</div>
               </div>
             </h2>
             <br/>

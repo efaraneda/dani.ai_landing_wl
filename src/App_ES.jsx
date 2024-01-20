@@ -1,25 +1,21 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-//Pages
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Home from "./pages/ES/Home";
-import Error404 from "./pages/ES/Error404";
 import Privacidad from "./pages/ES/Privacidad";
 import Terminos from "./pages/ES/Terminos";
+import Error404 from "./pages/ES/Error404";
 
 function App() { 
   return (
-   <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Home/>} />
-      <Route path="/privacidad" element={<Privacidad/>} /> 
-      <Route path="/terminos" element={<Terminos/>} /> 
-      <Route index element={<Home/>} />      
-      <Route path="*" element={<Error404/>} />
-    </Routes>
-   
-   </BrowserRouter>
-    
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/privacidad" element={<Privacidad />} /> 
+        <Route path="/terminos" element={<Terminos />} /> 
+        <Route path="blog*" element={<Navigate to="/blog" />} />
+        <Route path="*" element={<Error404 />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
