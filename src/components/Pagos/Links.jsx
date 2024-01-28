@@ -1,6 +1,6 @@
 const Links = () => {
   return (
-    <div className="text-white min-h-screen sm:min-h-[90vh] grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-4 w-full py-14 bg-navy">
+    <div className="mt-8 text-white min-auto sm:min-h-[90vh] grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-4 w-full py-14 bg-navy">
       <div className="md:hidden sm:w-[90%] sm:ml-4">
   <div className=" md:ml-12 sm:col-span-1 sm:mb-4">
     <div className="sm:mb-4 flex items-center">
