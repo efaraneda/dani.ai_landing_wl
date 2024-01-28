@@ -30,9 +30,9 @@ const VideoPlayer = () => {
       Confían en nosotros
     </h4></div>
   <div className='flex items-center justify-center md:-mt-1 sm:-mt-3'>
-    <img src="aws.png" alt="aws icon" class=" w-auto md:h-[8vh] sm:h-[4vh]"></img>
-    <img src="trust.png" alt="aws icon" class="px-64 w-auto md:h-[8vh] sm:h-[5vh] sm:px-12 sm:-mt-2"></img>
-    <img src="google.webp" alt="aws icon" class=" w-auto md:h-[9vh] sm:h-[5vh]"></img>  
+    <img src="aws.png" alt="aws icon" className=" w-auto md:h-[8vh] sm:h-[4vh]"></img>
+    <img src="trust.png" alt="aws icon" className="px-64 w-auto md:h-[8vh] sm:h-[5vh] sm:px-12 sm:-mt-2"></img>
+    <img src="google.webp" alt="aws icon" className=" w-auto md:h-[9vh] sm:h-[5vh]"></img>  
   </div>
 </div>
 

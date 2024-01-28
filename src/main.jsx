@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App_ES from './App_ES';
-import App_EN from './App_EN';
 import './index.css';
 
 // Set a timeout of 0.5 seconds (500 milliseconds)
@@ -25,20 +24,12 @@ const fetchGeolocation = () => {
 };
 
 const renderApp = (country) => {
-  if ((!navigator.userAgent.includes('oogle')) && (navigator.language === 'en-US') && (country === 'United States')) {
-    ReactDOM.createRoot(document.getElementById('root')).render(
-      <React.StrictMode>
-        <App_EN />
-      </React.StrictMode>
-    );
-  } else {
     ReactDOM.createRoot(document.getElementById('root')).render(
       <React.StrictMode>
         <App_ES />
       </React.StrictMode>
     );
   }
-};
 
 // Fetch geolocation data and handle timeout
 Promise.race([fetchGeolocation(), new Promise(resolve => setTimeout(resolve, timeout))])
