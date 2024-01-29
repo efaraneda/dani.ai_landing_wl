@@ -17,7 +17,7 @@ const Mid = () => {
           color="#e8e8e8ff"
           name="DaniGPT Semanal"
           description='Ideal para empezar'
-          features={['Chat de texto y voz ilimitado', 'Sin cobros automáticos', '30 días de acceso']}
+          features={['Chat de texto y voz ilimitado', 'Sin cobros automáticos', '7 días de acceso']}
           btnText="Acceso Semanal"
           price="3.5"
           id={id_1}
