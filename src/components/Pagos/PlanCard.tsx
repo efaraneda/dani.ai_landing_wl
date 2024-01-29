@@ -84,6 +84,8 @@ export default function PlanCard({
 
       // Crear la factura
       const date = new Date();
+      date.setDate(date.getDate() - 1); // Subtract 1 day
+      
       const formatted_date = date.toISOString().split('T')[0];
 
       if (price == '3.5'){
@@ -180,7 +182,7 @@ export default function PlanCard({
 
       // Enviar la factura
       const sendInvoiceData = {
-        send_to_invoicer: false,
+        send_to_recipient: true,
       };
 
       const sendInvoiceResponse = await fetch(`https://api-m.paypal.com/v2/invoicing/invoices/${id_enviar}/send`, {
