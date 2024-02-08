@@ -9,29 +9,30 @@ const Hero = () => {
         <div className='md:col-span-5 flex items-center justify-center p-8'> {/*Información CTA*/}
           <div>
             <h1 className='text-4xl sm:text-3xl font-normal  text-white'>
-              <span className='text-white font-bold'>Chat </span>psicológico,<br/>evaluación <span className='text-white font-bold'> 
-                  emocional 24/7</span>
+              <span className='text-white font-bold'>Relationship Counselor</span><br/> in Your Pockets<span className='text-white font-bold'>
+
+              </span>
             </h1>
             <br/>
             <h2>
-              <div className='text-white leading-[1.5rem] xl:max-w-lg font-thin'>
+              <div className='text-white leading-[1.5rem] xl:max-w-lg font-base text-lg '>
                 <div>
-                Evaluación Psicológica completa en 30 minutos. Sistema autónomo diseñado para brindarte un plan de trabajo claro basado en fundamentos clínicos. Ahorra tiempo, dinero y entrega resultados concretos.         
+                This 2024 crush your relationship goals with <b className="underline">Mia</b>
                 
               </div>
               </div>
             </h2>
             <br/>
             <div className='xl:flex items-center gap-4 py-2'>
-                <a href="https://wa.me/message/UEPODIF6XTSYK1" target="_blank" rel='nofollow' className="sm:w-[150px] sm:justify-center  border-purple-primary dark:border-purple-light bg-crayola from-purple-primary to-purple-dark dark:from-white dark:to-purple-light text-white dark:text-purple-dark hover:brightness-110 focus:ring-purple-primary dark:focus:ring-purple-dark active:ring-purple-primary dark:active:ring-purple-dark transition font-semibold focus:outline-none focus:ring-4 focus:ring-opacity-50 active:ring-4 active:ring-opacity-50 flex shadow-sm  text-base px-4 py-2 rounded-lg text-lg">Evalúate</a>
+                <a href="https://wa.me/message/UEPODIF6XTSYK1" target="_blank" rel='nofollow' className="sm:w-[150px] sm:justify-center  border-purple-primary dark:border-purple-light bg-crayola from-purple-primary to-purple-dark dark:from-white dark:to-purple-light text-white dark:text-purple-dark hover:brightness-110 focus:ring-purple-primary dark:focus:ring-purple-dark active:ring-purple-primary dark:active:ring-purple-dark transition font-semibold focus:outline-none focus:ring-4 focus:ring-opacity-50 active:ring-4 active:ring-opacity-50 flex shadow-sm  text-base px-4 py-2 rounded-lg text-lg">Start Trial</a>
                 <Link 
                 to="acceso"
                 smooth={true}
                 duration={1350}
-                className="sm:hidden hover:text-gray-400 sm:px-4 text-white hover:shadow-lg-white cursor-pointer italic"
+                className="sm:hidden font-thin text-base hover:text-gray-400 hover:shadow sm:px-4 text-slate-300 hover:shadow-lg-white cursor-pointer italic"
                 >
-                  Mira cómo
-              </Link>.
+                 Then just $3.50 per week
+              </Link>
 
           </div>
         </div>
@@ -56,6 +57,7 @@ const Hero = () => {
   </div>
   {/* Top circle */}
   <div className="sm:hidden absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-[250px] h-[250px] md:w-[322px] md:h-[322px] border-[11px] border-crayola rounded-full z-20"></div>
+
 </div>
 
 

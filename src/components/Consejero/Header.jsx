@@ -46,13 +46,13 @@ const Header = () => {
           ¿Cómo funciona?
         </Link>
         <Link
-          to="empresas"
+          to="quien"
           smooth={true}
           duration={1350}
           className="hover:text-gray-400 hover:shadow-lg-white cursor-pointer md:ml-10 md:mr-8"
           onClick={closeMenu} // Close the menu when link is clicked
         >
-          Centros de salud
+          ¿Para quién?
         </Link>
         <div className="flex flex-row gap-4">
         
@@ -63,7 +63,7 @@ const Header = () => {
           className="border-purple-primary dark:border-purple-light bg-crayola from-purple-primary to-purple-dark dark:from-white dark:to-purple-light text-white dark:text-purple-dark hover:brightness-110 focus:ring-purple-primary dark:focus:ring-purple-dark active:ring-purple-primary dark:active:ring-purple-dark transition font-semibold focus:outline-none focus:ring-4 focus:ring-opacity-50 active:ring-4 active:ring-opacity-50 flex shadow-sm  text-base px-4 py-2 rounded-lg text-lg"
           onClick={closeMenu} // Close the menu when link is clicked
         >
-          Evalúate ahora
+          Prueba gratis
         </a></div>
       </nav>
       <button

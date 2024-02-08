@@ -1,15 +1,18 @@
 import React from 'react';
-import { MdMemory } from 'react-icons/md';
 import { HiLightBulb } from 'react-icons/hi';
 import { VscChecklist } from 'react-icons/vsc';
-import { BiSolidLockAlt } from 'react-icons/bi';
+import { GiHumanTarget } from 'react-icons/gi';
 import { AiFillHeart } from 'react-icons/ai';
-import { FaShield } from 'react-icons/fa6';
-
+import { IoThunderstorm } from 'react-icons/io5';
+import { BsHeartbreakFill } from 'react-icons/bs';
+ 
 
 const WidgetComponent = () => {
   return (
-<section className='sm:mb-32 mt-28 md:mt-36 flex flex-col items-center'>
+<section className='sm:mb-32 mt-28 md:mt-36 flex flex-col items-center md:-mb-24' id="deserve">
+<h4 className="font-bold text-center text-3xl lg:text-4xl mb-4 sm:w-[75%]">Mereces más. Empieza con DaniGPT ❤</h4>
+    <p       className="text-lg text-black justify-center text-center items-center md:w-[50%] mb-4">
+    La herramienta de autoayuda ideal para personas que quieren un espacio intimo para compartir, afinar ideas y planes, y cumplir sus metas.</p>
   <div className='bg-white w-full md:w-[70%] sm:w-[74%]'>
   </div>
   {/* div color navy */}
@@ -18,94 +21,135 @@ const WidgetComponent = () => {
 
           <div className='max-h-[400px] sm:max-w-[82%] sm:mt-24 sm:-mb-8'>
               <div className='sm:mt-16 sm:mx-auto md:mt-14 flex justify-center items-center transform translate-x-1/2 -translate-y-1/2 rounded-full w-[56px] h-[56px] bg-lavanda'>
-                <MdMemory className='text-4xl text-crayola'/>  
+                <GiHumanTarget className='text-4xl text-crayola'/>  
               </div>
               <div className='sm:ml-12 sm:text-center md:ml-7 sm:text-xl md:text-lg font-bold text-white'>
-                Memoria & Personalización
+              Control de emociones
               </div>
-              <div className='sm:mt-32 sm:ml-8 sm:text-justify  text-white text-sm font-light md:mt-14    
-              items-center transform translate-x-4 -translate-y-28 md:ml-3 md:w-[80%] md:mt-36 sm:text-lg'>DaniGPT<a className='font-bold'> recordará lo que compartas</a> en WhatsApp y sea relevante para tu evaluación, como tu historia, edad, síntomas, etc.   
+              <div className='sm:mt-32  sm:text-center  text-white text-sm font-light md:mt-14    
+              items-center transform translate-x-4 -translate-y-28 md:ml-3 md:w-[80%] md:mt-36 sm:text-lg'>
+                &#10003; Necesitas un enfoque práctico<br/>
+                &#10003; Quieres manejar emociones negativas
+                 
               </div>
           </div>
           <div className='max-h-[400px] sm:max-w-[80%] sm:-mb-6'>
               <div className='sm:mt-16 sm:mx-auto md:mt-14 flex justify-center items-center transform translate-x-1/2 -translate-y-1/2 rounded-full w-[56px] h-[56px] bg-lavanda'>
                 <HiLightBulb className='text-4xl text-crayola'/>
               </div>
-              <div className='sm:ml-12 sm:text-center md:w-[50%] sm:text-xl md:text-lg ml-7 font-bold text-white'>
-                Capacidad de reflexión
+              <div className='sm:ml-12 sm:text-center sm:text-xl md:text-lg ml-7 font-bold text-white'>
+              Toma de decisiones
               </div>
-              <div><div className='sm:mt-32 sm:text-justify  sm:ml-8 text-white text-sm font-light  md:mt-14   
-              items-center transform translate-x-4 -translate-y-28 md:ml-3 md:w-[80%] md:mt-36 sm:text-lg'>La arquitectura de Dani, le permite indagar en tu caso personal, generar hipótesis y vincular las particularidades de tu caso de forma automática, con gran precisión.</div></div></div>
+              <div><div className='sm:mt-32   sm:text-center text-white text-sm font-light  md:mt-14   
+              items-center transform translate-x-4 -translate-y-28 md:ml-3 md:w-[80%] md:mt-36 sm:text-lg'>
+                &#10003; Necesitas una 2da opinión o consejo<br/>
+                &#10003; Quieres planificar<br/>
+                &#10003; Quieres preveer situaciones
+
+</div></div></div>
           <div className='max-h-[400px] sm:max-w-[80%] sm:-mb-6'>
             <div className='sm:mt-16 sm:mx-auto md:mt-14 flex justify-center items-center transform translate-x-1/2 -translate-y-1/2 rounded-full w-[56px] h-[56px] bg-lavanda'>
-          <VscChecklist className='text-4xl text-crayola' /></div>
-          <div className='sm:ml-12 sm:text-center sm:text-xl md:text-lg md:ml-7 font-bold text-white'>
-                Metodología & principios
+          <AiFillHeart className='text-4xl text-crayola' /></div>
+          <div className='sm:ml-12 sm:text-center sm:text-xl md:text-lg md:ml-7 font-bold  text-white'>
+          Ansiedad
               </div>
-        <div><div className='sm:mt-32 sm:text-justify  sm:ml-8 text-white text-sm font-light  md:mt-14   
-              items-center transform translate-x-4 -translate-y-28 md:ml-3 md:w-[80%] md:mt-36 sm:text-lg'>La evaluación se divide en <a className='font-bold'>3 etapas</a>, cuidadosamente diseñadas con fundamentos clínicos.</div></div></div>
+        <div><div className='sm:mt-32 sm:text-center  text-white text-sm font-light  md:mt-14   
+              items-center transform translate-x-4 -translate-y-28 md:ml-3 md:w-[80%] md:mt-36 sm:text-lg'>
+                &#10003; Buscas controlar tu ansiedad<br/>
+                &#10003; Situaciones concretas<br/> 
+                &#10003; Prácticar técnicas
+
+                </div></div></div>
   </div>
 {/* div color navy 2 - version small devices */}
   <div className='md:hidden md:grid md:grid-cols-4 md:w-[70%] md:h-[400px]  
   bg-navy md:rounded-lg sm:w-full sm:h-[auto]'>
           <div className='max-h-[400px] sm:max-w-[80%] sm:-mb-6'>
               <div className='sm:mt-14 sm:mx-auto md:mt-14 flex justify-center items-center transform translate-x-1/2 -translate-y-1/2 rounded-full w-[56px] h-[56px] bg-lavanda'>
-                <BiSolidLockAlt className='text-4xl text-crayola'/>  
+                <IoThunderstorm className='text-4xl text-crayola'/>  
               </div>
               <div className='sm:ml-12 sm:text-center text-xl md:ml-7 font-bold text-white'>
-              Privado
+              Manejo de emociones
               </div>
-              <div className='sm:mt-32 text-justify sm:ml-8 text-white text-sm font-light md:mt-14    
-              items-center transform translate-x-4 -translate-y-28 md:ml-3 md:w-[80%] md:mt-36 sm:text-lg'> Lo que compartas es privado, encriptado y anonimizado. Sabemos que los datos de pacientes son datos sensibles. Por eso, trabajamos sobre la base de la protección de la vida privada y salud de las personas.   
+              <div className='sm:mt-32 text-center text-white text-sm font-light md:mt-14    
+              items-center transform translate-x-4 -translate-y-28 md:ml-3 md:w-[80%] md:mt-36 sm:text-lg'> 
+              &#10003;Manage jealousy and insecurities<br/>   
+              &#10003;Navigate serious disputes<br/> 
+              &#10003;Overcome infidelity
+
+
               </div>
           </div>
           <div className='max-h-[400px] sm:max-w-[80%] sm:-mb-6'>
               <div className='sm:mt-16 sm:mx-auto md:mt-14 flex justify-center items-center transform translate-x-1/2 -translate-y-1/2 rounded-full w-[56px] h-[56px] bg-lavanda'>
-                <AiFillHeart className='text-4xl text-crayola'/>
+                <VscChecklist className='text-4xl text-crayola'/>
               </div>
               <div className='sm:ml-12 sm:text-center text-xl md:ml-7 font-bold text-white'>
-              10x +eficiente
+              Ansiedad
                             </div>
-              <div><div className='sm:mt-32 text-justify sm:ml-8 text-white text-sm font-light md:mt-14    
-              items-center transform translate-x-4 -translate-y-28 md:ml-3 md:w-[80%] md:mt-36 sm:text-lg'>Abre <a className='font-bold'>WhatsApp, saluda 👋 y ¡comienza la evaluación!</a> No más trámites, listas de espera, ni agendas. Un entregable similar al que genera DaniGPT al finalizar, <a className='font-bold'>tomaría 5 sesiones de psicoterapia tradicional</a>, y Dani se demora sólo 30 minutos.</div></div></div>
+              <div><div className='sm:mt-32 text-center text-white text-sm font-light md:mt-14    
+              items-center transform translate-x-4 -translate-y-28 md:ml-3 md:w-[80%] md:mt-36 sm:text-lg'>
+                &#10003; Buscas controlar tu ansiedad<br/>
+                &#10003; Situaciones concretas<br/> 
+                &#10003; Prácticar técnicas
+                
+</div></div></div>
           <div className='max-h-[400px] sm:max-w-[80%] sm:-mb-6'>
             <div className='sm:mt-16 sm:mx-auto md:mt-14 flex justify-center items-center transform translate-x-1/2 -translate-y-1/2 rounded-full w-[56px] h-[56px] bg-lavanda'>
-          <FaShield className='text-4xl text-crayola h-[55%] w-auto' /></div>
+          <BsHeartbreakFill className='text-4xl text-crayola h-[55%] w-auto' /></div>
           <div className='sm:ml-12 sm:text-center md:ml-7 text-xl font-bold text-white'>
-          Seguro
+          Ruptura de pareja
               </div>
-        <div><div className='sm:mt-32 text-justify sm:ml-8 text-white text-sm font-light  md:mt-14   
-              items-center transform translate-x-4 -translate-y-28 md:ml-3 md:w-[80%] md:mt-36 sm:text-lg'>Tanto los datos en "tránsito" y como en "reposo", son <a className='font-bold'>encriptados</a> y <a className='font-bold'>almacenados</a> de manera segura bajo llaves, para que puedas aprovechar las funcionalidades de Dani.</div></div></div>
+        <div><div className='sm:mt-32 text-center text-white text-sm font-light  md:mt-14   
+              items-center transform translate-x-4 -translate-y-28 md:ml-3 md:w-[80%] md:mt-36 sm:text-lg'>
+                &#10003; Supera el dolor emocional<br/>
+                &#10003; Reconstruye confianza<br/>
+                &#10003; Prepárate para amar de nevo
+</div></div></div>
   </div>
   {/* div that should be displayed just below the one that's color navy, but at the same time under the one that's color lavanda*/}
   <div className='sm:hidden md:grid md:grid-cols-4 md:w-[70%] md:h-[400px]  
   rounded-lg sm:w-full sm:h-[300vh]'>
           <div>
               <div className='sm:mt-12 sm:ml-4 md:mt-14 flex justify-center items-center transform translate-x-1/2 -translate-y-1/2 rounded-full w-[56px] h-[56px] bg-lavanda'>
-                <BiSolidLockAlt className='text-4xl text-crayola'/>  
+                <IoThunderstorm className='text-4xl text-crayola'/>  
               </div>
               <div className='ml-7 md:text-lg font-bold text-black'>
-                Privado
+              Autoestima
+
               </div>
               <div className='sm:mt-20 sm:ml-20 sm:w-[30vh] text-black text-sm font-light sm:mt-12 sm:ml-4 md:mt-14   
-              items-center transform translate-x-4 -translate-y-28 ml-3 w-[80%] md:mt-36'> Lo que compartas es privado, encriptado y anonimizado. Sabemos que los datos de pacientes son datos sensibles. Por eso, trabajamos sobre la base de la protección de la vida privada y salud de las personas.</div>
+              items-center transform translate-x-4 -translate-y-28 ml-3 w-[80%] md:mt-36'> 
+              &#10003; Manejar celos e inseguridad<br/>   
+              &#10003; Superar infidelidad<br/> 
+              &#10003; Superación y crecimiento
+              </div>
           </div>
           <div>
               <div className='sm:mt-12 sm:ml-4 md:mt-14 flex justify-center items-center transform translate-x-1/2 -translate-y-1/2 rounded-full w-[56px] h-[56px] bg-lavanda'>
-                <AiFillHeart className='text-4xl text-crayola'/>
+                <VscChecklist className='text-4xl text-crayola'/>
               </div>
-              <div className='ml-7 md:text-lg font-bold text-black w-[60%]'>
-                10x +eficiente
+              <div className='ml-7 md:text-lg font-bold text-black w-[80%]'>
+            Metas Personales
+
               </div>
               <div><div className='sm:mt-20 sm:ml-20 sm:w-[30vh] text-black text-sm font-light sm:mt-12 sm:ml-4 md:mt-14   
-              items-center transform translate-x-4 -translate-y-28 ml-3 w-[80%] md:mt-36'>Abre <a className='font-bold'>WhatsApp, saluda 👋 y ¡comienza la evaluación!</a> No más trámites, listas de espera, ni agendas. Un entregable similar al que genera DaniGPT, <a className='font-bold'>tomaría 5 sesiones de psicoterapia tradicional</a>, y Dani se demora sólo 30 minutos.</div></div></div>
+              items-center transform translate-x-4 -translate-y-28 ml-3 w-[80%] md:mt-36'>
+                &#10003; Desarrollo de carrera<br/> 
+                &#10003; Desarrollo de hábitos<br/> 
+                &#10003; Metas en general
+          </div></div></div>
           <div><div className='sm:mt-12 sm:ml-4 md:mt-14 flex justify-center items-center transform translate-x-1/2 -translate-y-1/2 rounded-full w-[56px] h-[56px] bg-lavanda'>
-          <FaShield className='text-4xl text-crayola  h-[55%] w-auto' /></div>
+          <BsHeartbreakFill className='text-4xl text-crayola  h-[55%] w-auto' /></div>
           <div className='ml-7 md:text-lg font-bold text-black w-[60%]'>
-                Seguro
+          Ruptura
               </div>
         <div><div id="empresas" className='sm:mt-20 sm:ml-20 sm:w-[30vh] text-black text-sm font-light sm:mt-12 sm:ml-4 md:mt-14   
-              items-center transform translate-x-4 -translate-y-28 ml-3 md:w-[82%] w-[80%] md:mt-36'>Tanto los datos en "tránsito" y como en "reposo", son <a className='font-bold'>encriptados</a> y <a className='font-bold'>almacenados</a> de manera segura bajo llaves, para que puedas aprovechar las funcionalidades de Dani.</div></div></div>
+              items-center transform translate-x-4 -translate-y-28 ml-3 md:w-[82%] w-[80%] md:mt-36'>
+                     &#10003; Supera el dolor emocional<br/>
+                &#10003; Reconstruye confianza<br/>
+                &#10003; Prepárate para amar de nevo
+                </div></div></div>
 
   </div>
 
@@ -121,13 +165,13 @@ const WidgetComponent = () => {
               <div  className="flex items-center">
                 
               </div>
-              <p  className="font-bold text-sm -mt-1 -ml-7">Dani</p>
+              <p  className="font-bold text-sm -mt-1 -ml-8">Dani</p>
 
-              <div  className="text-xs -mt-1 -mr-4">1 min</div>
+              <div  className="text-xs -mt-1 -mr-3">1 min</div>
             </div>
             <div  className="px-10 py-2">
 
-              <p  className="font-normal text-xs -mt-1 -ml-6 -mr-14">Hola, ¿cómo estás?</p>
+              <p  className="font-normal text-xs -mt-1 -ml-3 -mr-14">Cómo va el progreso?</p>
             </div>
           
     </div>
@@ -137,7 +181,6 @@ const WidgetComponent = () => {
   <img src="whatsapp_logo.png" alt="WhatsApp Icon"  className="w-[34px] h-[34px] -ml-12 mt-4 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-40"></img>
 
 </div>
-    <div className='-mb-24'></div>
     
 
     </section>

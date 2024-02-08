@@ -13,14 +13,14 @@ const Links = () => {
     </div>
 
     <p className="sm:mt-0 px-4 sm:px-2 py-4 sm:py-0 text-gray-300">
-      Te ayudamos a trabajar en tu salud mental usando tecnología.
+      We use Engineering and Clinical Methods to help you improve your mental health.
     </p>
   </div>
 
   <div className="sm:col-span-1 sm:mb-4 md:ml-28 sm:px-2">
-    <h4 className="py-4 mb-2 text-white font-bold">Navega</h4>
+    <h4 className="py-4 mb-2 text-white font-bold">Site</h4>
     <div className="flex flex-col">
-      <a href='https://theragen.ai/privacidad' className="md:h-10 md:w-auto hover:text-white py-2 text-gray-300" rel='nofollow'>Privacidad</a>
+      <a href='https://theragen.ai/privacidad' className="md:h-10 md:w-auto hover:text-white py-2 text-gray-300" rel='nofollow'>Privacy</a>
       <a href="https://theragen.ai" className="md:h-10 md:w-auto hover:text-white py-2 text-gray-300">¿Cómo funciona?</a>
       <Link
           to="equipo"
@@ -28,14 +28,14 @@ const Links = () => {
           duration={1350}
           className="py-2 md:h-10 md:w-auto hover:text-white flex items-center text-gray-300"
         >
-          Equipo
+          Team
         </Link>
-        <a href="https://www.trustpilot.com/review/theragen.ai" target="_blank" className="py-2 hover:text-white text-gray-300" rel='nofollow'>Tu opinión importa</a>
+        <a href="https://www.trustpilot.com/review/theragen.ai" target="_blank" className="py-2 hover:text-white text-gray-300" rel='nofollow'>Leave us a review</a>
     </div>
   </div>
 
   <div className="sm:col-span-1 md:ml-10 sm:px-2">
-    <h4 className="py-4 mb-2 text-white font-bold">Redes</h4>
+    <h4 className="py-4 mb-2 text-white font-bold">Follow us</h4>
     <div className="flex flex-col">
       <a href="https://www.linkedin.com/company/theragen-ai/about/" target="_blank" className="py-2 hover:text-white text-gray-300" rel='nofollow'>LinkedIn</a>
       <a href="https://www.instagram.com/dani.gpt/" target="_blank" className="py-2 hover:text-white text-gray-300" rel='nofollow'>Instagram</a>
@@ -52,7 +52,7 @@ const Links = () => {
     </div>
 
     <p className="sm:mt-0 px-4 sm:px-2 py-4 sm:py-0 text-gray-300">
-    Te ayudamos a trabajar en tu salud mental usando tecnología.
+    We use Engineering and Clinical Methods to help you improve your mental health.
     </p>
     <p className="sm:mt-0 px-4 sm:px-2 py-2 sm:py-0 text-gray-300">
     © 2024 Theragen Labs LLC. <br/>All rights reserved.
@@ -60,24 +60,24 @@ const Links = () => {
   </div>
 
   <div className="sm:hidden sm:col-span-1 sm:mb-4 md:ml-28 sm:px-2">
-    <h4 className="py-4 mb-2 text-white font-bold">Navega</h4>
+    <h4 className="py-4 mb-2 text-white font-bold">Site</h4>
     <div className="flex flex-col">
-      <a href='https://theragen.ai/privacidad' className="md:h-10 md:w-auto hover:text-white py-2 text-gray-300" rel='nofollow'>Privacidad</a>
-      <a href="https://theragen.ai" className="md:h-10 md:w-auto hover:text-white py-2 text-gray-300">¿Cómo funciona?</a>
+      <a href='https://theragen.ai/privacidad' className="md:h-10 md:w-auto hover:text-white py-2 text-gray-300" rel='nofollow'>Privacy</a>
+      <a href="https://theragen.ai" className="md:h-10 md:w-auto hover:text-white py-2 text-gray-300">How does it work?</a>
       <Link
           to="equipo"
           smooth={true}
           duration={1350}
           className="py-2 md:h-10 md:w-auto hover:text-white flex items-center text-gray-300"
         >
-          Equipo
+          Team
         </Link>
-      <a href="https://www.trustpilot.com/review/theragen.ai" target="_blank" className="py-2 hover:text-white text-gray-300" rel='nofollow'>Tu opinión importa</a>
+      <a href="https://www.trustpilot.com/review/theragen.ai" target="_blank" className="py-2 hover:text-white text-gray-300" rel='nofollow'>Leave us a review</a>
     </div>
   </div>
 
   <div className="sm:hidden sm:col-span-1 md:ml-10 sm:px-2">
-    <h4 className="py-4 mb-2 text-white font-bold">Redes</h4>
+    <h4 className="py-4 mb-2 text-white font-bold">Follow us</h4>
     <div className="flex flex-col">
       <a href="https://www.linkedin.com/company/theragen-ai/about/" target="_blank" className="py-2 hover:text-white text-gray-300" rel='nofollow'>LinkedIn</a>
       <a href="https://www.instagram.com/dani.gpt/" target="_blank" className="py-2 hover:text-white text-gray-300" rel='nofollow'>Instagram</a>
