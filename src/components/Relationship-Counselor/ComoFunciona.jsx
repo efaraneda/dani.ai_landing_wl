@@ -160,25 +160,23 @@ const WidgetComponent = () => {
   {/* Position the WhatsApp notification */}
   
         <div  className="absolute inset-0 flex justify-center items-center">
-          <div  className="bg-gray-50 bg-opacity-50 rounded-lg text-black text-center px-2 py-2 w-[80%]">
-            <div  className="flex justify-between items-center px-4">
-              <div  className="flex items-center">
-                
+
+          <div  className="bg-gray-50 bg-opacity-50 rounded-lg text-black grid grid-cols-2 gap-0 text-center py-2 w-[80%]">
+            <div class=' w-[50%] flex flex-col items-center justify-center place-items-center relative'>
+              <img src="mia.jpeg" className='rounded-full w-[35px] h-[35px]' />
+              <img src="whatsapp_logo.png" alt="WhatsApp Icon"  className="w-[32px] h-[32px] z-40 absolute -mr-6 mt-6"></img>
+            </div>
+            <div  className="w-[141%] justify-between items-center ml-[-48%]">
+              <div  className="flex justify-between items-center -mt-1">              
+                <p  className="font-bold text-sm ">Mia</p>
+                <p  className="text-xs text-slate-500 ">1 min ago</p>
               </div>
-              <p  className="font-bold text-sm -mt-1 -ml-7">Mia</p>
-
-              <div  className="text-xs -mt-1 -mr-4">1 min</div>
+              <div>
+                 <p  className="font-normal text-left text-xs ">Good to see you, how's everything going?</p>
+               </div>
             </div>
-            <div  className="px-10 py-2">
-
-              <p  className="font-normal text-xs -mt-1 -ml-6 -mr-14">Hey, how's it going?</p>
-            </div>
-          
-    </div>
+          </div>
   </div>
-
-  <img src="Mia.png" className='rounded-full w-[40px] h-[40px] -ml-16 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-30' />
-  <img src="whatsapp_logo.png" alt="WhatsApp Icon"  className="w-[34px] h-[34px] -ml-12 mt-4 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-40"></img>
 
 </div>
     

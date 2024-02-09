@@ -30,7 +30,7 @@ const SaberMas = () => {
             <b>Components</b><br />
             <a className="italic text-sm"> "Mia is NOT another chatbot that invites you to workout every time you tell her you are feeling bad(...) We designed a very specific architecture of components, which allows it to understand the context, emotions, ask questions, prioritize and plan(...)".</a> <a className="text-sm underline">Read more.</a>
           </div>
-          <img src="dani_picture.jpg" className="md:mt-0 sm:mt-4 rounded-lg h-[110px] w-[110px]"></img>
+          <img src="mia.jpeg" className="md:mt-0 sm:mt-4 rounded-lg h-[110px] w-[110px]"></img>
         </div>
         </div>
       </div>
