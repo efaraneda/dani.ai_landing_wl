@@ -19,7 +19,7 @@ const SaberMas = () => {
       title: "Conoce a Mia",
       content: "Mia es un Consejero Personalizado Inteligente. Esta pensado para ayudarte a cumplir las metas que te sugirió Dani, según tu caso personal. Este 2024, rompe todas tus metas con Mia.",
       image: "mia.jpeg",
-      link: "https//:theragen.ai/consejero"
+      link: "consejera"
     },
     {
       title: "Componentes",
