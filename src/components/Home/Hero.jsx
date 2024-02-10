@@ -14,7 +14,7 @@ const Hero = () => {
             </h1>
             <br/>
             <h2>
-              <div className='text-white leading-[1.5rem] xl:max-w-lg font-thin'>
+              <div className='text-white leading-[1.5rem] md:max-w-lg font-thin'>
                 <div>
                 Evaluación Psicológica completa en 30 minutos. Sistema autónomo diseñado para brindarte un plan de trabajo claro basado en fundamentos clínicos. Ahorra tiempo, dinero y entrega resultados concretos.         
                 
@@ -22,7 +22,7 @@ const Hero = () => {
               </div>
             </h2>
             <br/>
-            <div className='xl:flex items-center gap-4 py-2'>
+            <div className='md:flex items-center gap-4 py-2'>
                 <a href="https://wa.me/message/UEPODIF6XTSYK1" target="_blank" rel='nofollow' className="sm:w-[150px] sm:justify-center  border-purple-primary dark:border-purple-light bg-crayola from-purple-primary to-purple-dark dark:from-white dark:to-purple-light text-white dark:text-purple-dark hover:brightness-110 focus:ring-purple-primary dark:focus:ring-purple-dark active:ring-purple-primary dark:active:ring-purple-dark transition font-semibold focus:outline-none focus:ring-4 focus:ring-opacity-50 active:ring-4 active:ring-opacity-50 flex shadow-sm  text-base px-4 py-2 rounded-lg text-lg">Evalúate</a>
                 <Link 
                 to="acceso"

@@ -8,7 +8,7 @@ export default {
     screens: {
       'sm': {'max': '700px'},
       'md': {'min': '701px'},
-      'xl': {'min': '1200px'}
+      'xl': {'min': '1500px'}
     },
     extend: {
       colors: {

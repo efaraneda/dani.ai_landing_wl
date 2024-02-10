@@ -10,9 +10,9 @@ import { BsHeartbreakFill } from 'react-icons/bs';
 const WidgetComponent = () => {
   return (
 <section className='sm:mb-32 mt-28 md:mt-36 flex flex-col items-center md:-mb-24' id="deserve">
-<h4 className="font-bold text-center text-3xl lg:text-4xl mb-4 sm:w-[75%]">Mereces más. Empieza con DaniGPT ❤</h4>
+<h4 className="font-bold text-center text-3xl lg:text-4xl mb-4 sm:w-[75%]">Mereces más. Empieza con Mia ❤</h4>
     <p       className="text-lg text-black justify-center text-center items-center md:w-[50%] mb-4">
-    La herramienta de autoayuda ideal para personas que quieren un espacio intimo para compartir, afinar ideas y planes, y cumplir sus metas.</p>
+    La herramienta de autoayuda ideal para personas que quieren un espacio íntimo para compartir, afinar ideas y planes, y cumplir sus metas personales.</p>
   <div className='bg-white w-full md:w-[70%] sm:w-[74%]'>
   </div>
   {/* div color navy */}
@@ -159,26 +159,28 @@ const WidgetComponent = () => {
 
   {/* Position the WhatsApp notification */}
   
-        <div  className="absolute inset-0 flex justify-center items-center">
-          <div  className="bg-gray-50 bg-opacity-50 rounded-lg text-black text-center px-2 py-2 w-[80%]">
-            <div  className="flex justify-between items-center px-4">
-              <div  className="flex items-center">
-                
-              </div>
-              <p  className="font-bold text-sm -mt-1 -ml-8">Dani</p>
-
-              <div  className="text-xs -mt-1 -mr-3">1 min</div>
+  <div  className="absolute inset-0 flex justify-center items-center">
+    <div id="dividir-2-filas" className=' xl:mt-36 flex w-[80%] flex justify-center items-center '>
+        <div  className="bg-gray-50   bg-opacity-50 rounded-lg text-black grid grid-cols-2 gap-0 text-center py-2 w-[100%]">
+          <div class=' w-[50%]  flex flex-col items-center justify-center place-items-center relative'>
+            <img src="mia.jpeg" className='rounded-full w-[35px] h-[35px]' />
+            <img src="whatsapp_logo.png" alt="WhatsApp Icon"  className="w-[32px] h-[32px] z-40 absolute -mr-6 mt-6"></img>
+          </div>
+          <div  className="w-[141%] justify-between items-center ml-[-48%]">
+            <div  className="flex justify-between items-center -mt-1">              
+              <p  className="font-bold text-sm ">Mia</p>
+              <p  className="text-xs text-slate-500 ">1 min</p>
             </div>
-            <div  className="px-10 py-2">
-
-              <p  className="font-normal text-xs -mt-1 -ml-3 -mr-14">Cómo va el progreso?</p>
+            <div>
+              <p  className="font-normal text-left text-xs ">Hola, ¿Cómo te ha ido esta semana?</p>
             </div>
-          
+          </div>
+        </div>
+
+
     </div>
-  </div>
 
-  <img src="dani_picture.jpg" className='rounded-full w-[40px] h-[40px] -ml-16 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-30' />
-  <img src="whatsapp_logo.png" alt="WhatsApp Icon"  className="w-[34px] h-[34px] -ml-12 mt-4 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-40"></img>
+</div>
 
 </div>
     

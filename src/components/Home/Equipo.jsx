@@ -32,7 +32,7 @@ const Equipo = () => {
       <h4 className="font-semibold text-center text-2xl lg:text-4xl mt-10">Ideal para cubrir listas de espera de atención de salud mental </h4>
       <div className="sm:w-[90%] fade-in-translate visible">
         <div  className="mt-4 flex items-center gap-x-3 max-w-2xl mx-auto">
-          <div className="md:ml-12 relative w-full" id="equipo">
+          <div className="relative w-full" id="equipo">
             <div className="absolute inset-y-0 left-0 flex items-center pl-3">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" stroke-strokeLinecap="round" strokeLinejoin="round" className="text-gray-500 dark:text-gray-400"><rect width="20" height="16" x="2" y="4" rx="2"></rect>
               <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
@@ -49,9 +49,9 @@ const Equipo = () => {
 </button>
             </div>
             <div className="pt-5"></div></div>  
-  <div className='flex items-center mb-10 mt-12 sm:mt-6'>
+  <div className='flex items-center mb-10 mt-12 sm:mt-6 justify-center'>
     <img src="aws.png" alt="AWS icon" className="hover:brightness-110 w-auto md:h-[7vh] sm:h-[4vh]"></img>
-    <img src="trust.png" alt="Trust icon" className="hover:brightness-110 md:px-[9vh] sm:px-[7vh] w-auto md:h-[8vh] sm:h-[5vh]"></img>
+    <img src="trust.png" alt="Trust icon" className="hover:brightness-110 md:px-[10vh] sm:px-[7vh] w-auto md:h-[8vh] sm:h-[5vh]"></img>
     <img src="MicrosoftForStartups.webp" alt="Google icon" className="hover:brightness-110 w-auto md:h-[8vh] sm:h-[5vh]"></img>
   </div>
 </div>

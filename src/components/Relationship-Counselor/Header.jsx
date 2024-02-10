@@ -23,7 +23,7 @@ const Header = () => {
   };
 
   return (
-    <header style={fixedHeaderStyle} className="bg-navy flex justify-between xl:justify-start w-full py-4 px-8 xl:px-42 h-[10vh] z-50">
+    <header style={fixedHeaderStyle} className="bg-navy flex justify-between md:justify-start w-full py-4 px-8 md:px-42 h-[10vh] z-50">
       <div className="xk:w-1/6 flex items-center sm:py-4">
         <img src="theragen_bold_white.png" className='h-[40px]' alt="Theragen" />
         <a className="text-2xl text-white font-medium ">
@@ -34,7 +34,7 @@ const Header = () => {
       <nav
         className={`fixed text-white sm:bg-navy font-normal  sm:w-[80%] md:ml-52  h-full ${
           showMenu ? "left-0" : "-left-full"
-        } top-0 xl:static flex-1 flex flex-col xl:flex-row items-center justify-center gap-10 transition-all duration-500 z-50`}
+        } top-0 md:static flex-1 flex flex-col md:flex-row items-center justify-center gap-10 transition-all duration-500 z-50`}
       >
         <Link
           to="work"
@@ -68,7 +68,7 @@ const Header = () => {
       </nav>
       <button
         onClick={() => setShowMenu(!showMenu)}
-        className="xl:hidden text-2xl p-2 text-white"
+        className="md:hidden text-2xl p-2 text-white"
       >
         {showMenu ? <RiCloseLine /> : <RiMenu3Fill />}
       </button>

@@ -5,7 +5,7 @@ import { VscChecklist } from 'react-icons/vsc';
 import { BiSolidLockAlt } from 'react-icons/bi';
 import { AiFillHeart } from 'react-icons/ai';
 import { FaShield } from 'react-icons/fa6';
-
+import { GiHumanTarget } from 'react-icons/gi';
 
 const WidgetComponent = () => {
   return (
@@ -21,29 +21,30 @@ const WidgetComponent = () => {
                 <MdMemory className='text-4xl text-crayola'/>  
               </div>
               <div className='sm:ml-12 sm:text-center md:ml-7 sm:text-xl md:text-lg font-bold text-white'>
-                Memoria & Personalización
+                Habla con Naturalidad
               </div>
               <div className='sm:mt-32 sm:ml-8 sm:text-justify  text-white text-sm font-light md:mt-14    
-              items-center transform translate-x-4 -translate-y-28 md:ml-3 md:w-[80%] md:mt-36 sm:text-lg'>DaniGPT<a className='font-bold'> recordará lo que compartas</a> en WhatsApp y sea relevante para tu evaluación, como tu historia, edad, síntomas, etc.   
+              items-center transform translate-x-4 -translate-y-28 md:ml-3 md:w-[80%] md:mt-36 sm:text-lg'>DaniGPT está diseñado para que se sienta natural hablar con él. Esta es una de las razones de su efectividad como herramienta.   
               </div>
           </div>
           <div className='max-h-[400px] sm:max-w-[80%] sm:-mb-6'>
               <div className='sm:mt-16 sm:mx-auto md:mt-14 flex justify-center items-center transform translate-x-1/2 -translate-y-1/2 rounded-full w-[56px] h-[56px] bg-lavanda'>
-                <HiLightBulb className='text-4xl text-crayola'/>
+                <AiFillHeart className='text-4xl text-crayola'/>
               </div>
-              <div className='sm:ml-12 sm:text-center md:w-[50%] sm:text-xl md:text-lg ml-7 font-bold text-white'>
-                Capacidad de reflexión
+              <div className='sm:ml-12 sm:text-center md:w-[80%] sm:text-xl md:text-lg ml-7 font-bold text-white'>
+                Siempre Disponible
               </div>
               <div><div className='sm:mt-32 sm:text-justify  sm:ml-8 text-white text-sm font-light  md:mt-14   
-              items-center transform translate-x-4 -translate-y-28 md:ml-3 md:w-[80%] md:mt-36 sm:text-lg'>La arquitectura de Dani, le permite indagar en tu caso personal, generar hipótesis y vincular las particularidades de tu caso de forma automática, con gran precisión.</div></div></div>
+              items-center transform translate-x-4 -translate-y-28 md:ml-3 md:w-[80%] md:mt-36 sm:text-lg'>Dani ha realizado 8 de cada 10 evaluaciones, fuera del horario laboral (9 AM / 6 PM). Ofrece cobertura, donde otros formatos y servicios no pueden.</div></div></div>
           <div className='max-h-[400px] sm:max-w-[80%] sm:-mb-6'>
             <div className='sm:mt-16 sm:mx-auto md:mt-14 flex justify-center items-center transform translate-x-1/2 -translate-y-1/2 rounded-full w-[56px] h-[56px] bg-lavanda'>
           <VscChecklist className='text-4xl text-crayola' /></div>
           <div className='sm:ml-12 sm:text-center sm:text-xl md:text-lg md:ml-7 font-bold text-white'>
-                Metodología & principios
+                Fundamentos Clínicos
               </div>
         <div><div className='sm:mt-32 sm:text-justify  sm:ml-8 text-white text-sm font-light  md:mt-14   
-              items-center transform translate-x-4 -translate-y-28 md:ml-3 md:w-[80%] md:mt-36 sm:text-lg'>La evaluación se divide en <a className='font-bold'>3 etapas</a>, cuidadosamente diseñadas con fundamentos clínicos.</div></div></div>
+              items-center transform translate-x-4 -translate-y-28 md:ml-3 md:w-[80%] md:mt-36 sm:text-lg'>Construido con fundamentos clínicamente probados de terapia cognitivo-conductual moderna.
+              </div></div></div>
   </div>
 {/* div color navy 2 - version small devices */}
   <div className='md:hidden md:grid md:grid-cols-4 md:w-[70%] md:h-[400px]  
@@ -61,21 +62,21 @@ const WidgetComponent = () => {
           </div>
           <div className='max-h-[400px] sm:max-w-[80%] sm:-mb-6'>
               <div className='sm:mt-16 sm:mx-auto md:mt-14 flex justify-center items-center transform translate-x-1/2 -translate-y-1/2 rounded-full w-[56px] h-[56px] bg-lavanda'>
-                <AiFillHeart className='text-4xl text-crayola'/>
+                <HiLightBulb className='text-4xl text-crayola'/>
               </div>
               <div className='sm:ml-12 sm:text-center text-xl md:ml-7 font-bold text-white'>
-              10x +eficiente
+              10x +Eficiente
                             </div>
               <div><div className='sm:mt-32 text-justify sm:ml-8 text-white text-sm font-light md:mt-14    
-              items-center transform translate-x-4 -translate-y-28 md:ml-3 md:w-[80%] md:mt-36 sm:text-lg'>Abre <a className='font-bold'>WhatsApp, saluda 👋 y ¡comienza la evaluación!</a> No más trámites, listas de espera, ni agendas. Un entregable similar al que genera DaniGPT al finalizar, <a className='font-bold'>tomaría 5 sesiones de psicoterapia tradicional</a>, y Dani se demora sólo 30 minutos.</div></div></div>
+              items-center transform translate-x-4 -translate-y-28 md:ml-3 md:w-[80%] md:mt-36 sm:text-lg'>No hay trámites, listas de espera, ni agendas. Además, un entregable similar al que genera DaniGPT al finalizar, <a className='font-bold'>tomaría 5 sesiones de psicoterapia tradicional</a>, y Dani se demora sólo 30 minutos.</div></div></div>
           <div className='max-h-[400px] sm:max-w-[80%] sm:-mb-6'>
             <div className='sm:mt-16 sm:mx-auto md:mt-14 flex justify-center items-center transform translate-x-1/2 -translate-y-1/2 rounded-full w-[56px] h-[56px] bg-lavanda'>
-          <FaShield className='text-4xl text-crayola h-[55%] w-auto' /></div>
+          <GiHumanTarget className='text-4xl text-crayola h-[55%] w-auto' /></div>
           <div className='sm:ml-12 sm:text-center md:ml-7 text-xl font-bold text-white'>
-          Seguro
+          Resultados precisos
               </div>
         <div><div className='sm:mt-32 text-justify sm:ml-8 text-white text-sm font-light  md:mt-14   
-              items-center transform translate-x-4 -translate-y-28 md:ml-3 md:w-[80%] md:mt-36 sm:text-lg'>Tanto los datos en "tránsito" y como en "reposo", son <a className='font-bold'>encriptados</a> y <a className='font-bold'>almacenados</a> de manera segura bajo llaves, para que puedas aprovechar las funcionalidades de Dani.</div></div></div>
+              items-center transform translate-x-4 -translate-y-28 md:ml-3 md:w-[80%] md:mt-36 sm:text-lg'> En base a la información recopilada por DaniGPT, obtendrás claridad con un marco conceptual transparente e intuitivo, que genera una hipótesis sobre tu problema, vinculando todos los elementos relevantes. <a className='font-semibold underline text-blue-500' target="_blank" rel='nofollow' href="ficha-ejemplo.pdf">Mira el Caso de Ejemplo.</a></div></div></div>
   </div>
   {/* div that should be displayed just below the one that's color navy, but at the same time under the one that's color lavanda*/}
   <div className='sm:hidden md:grid md:grid-cols-4 md:w-[70%] md:h-[400px]  
@@ -92,20 +93,20 @@ const WidgetComponent = () => {
           </div>
           <div>
               <div className='sm:mt-12 sm:ml-4 md:mt-14 flex justify-center items-center transform translate-x-1/2 -translate-y-1/2 rounded-full w-[56px] h-[56px] bg-lavanda'>
-                <AiFillHeart className='text-4xl text-crayola'/>
+                <HiLightBulb className='text-4xl text-crayola'/>
               </div>
               <div className='ml-7 md:text-lg font-bold text-black w-[60%]'>
-                10x +eficiente
+                10x +Eficiente
               </div>
               <div><div className='sm:mt-20 sm:ml-20 sm:w-[30vh] text-black text-sm font-light sm:mt-12 sm:ml-4 md:mt-14   
-              items-center transform translate-x-4 -translate-y-28 ml-3 w-[80%] md:mt-36'>Abre <a className='font-bold'>WhatsApp, saluda 👋 y ¡comienza la evaluación!</a> No más trámites, listas de espera, ni agendas. Un entregable similar al que genera DaniGPT, <a className='font-bold'>tomaría 5 sesiones de psicoterapia tradicional</a>, y Dani se demora sólo 30 minutos.</div></div></div>
+              items-center transform translate-x-4 -translate-y-28 ml-3 w-[80%] md:mt-36'>No hay trámites, listas de espera, ni agendas. Además, un entregable similar al que genera DaniGPT, <a className='font-bold'>tomaría 5 sesiones de psicoterapia tradicional</a>, y Dani se demora sólo 30 minutos.</div></div></div>
           <div><div className='sm:mt-12 sm:ml-4 md:mt-14 flex justify-center items-center transform translate-x-1/2 -translate-y-1/2 rounded-full w-[56px] h-[56px] bg-lavanda'>
-          <FaShield className='text-4xl text-crayola  h-[55%] w-auto' /></div>
-          <div className='ml-7 md:text-lg font-bold text-black w-[60%]'>
-                Seguro
+          <GiHumanTarget className='text-4xl text-crayola  h-[55%] w-auto' /></div>
+          <div className='ml-7 md:text-lg font-bold text-black w-[78%]'>
+          Resultados Precisos
               </div>
         <div><div id="empresas" className='sm:mt-20 sm:ml-20 sm:w-[30vh] text-black text-sm font-light sm:mt-12 sm:ml-4 md:mt-14   
-              items-center transform translate-x-4 -translate-y-28 ml-3 md:w-[82%] w-[80%] md:mt-36'>Tanto los datos en "tránsito" y como en "reposo", son <a className='font-bold'>encriptados</a> y <a className='font-bold'>almacenados</a> de manera segura bajo llaves, para que puedas aprovechar las funcionalidades de Dani.</div></div></div>
+              items-center transform translate-x-4 -translate-y-28 ml-3 md:w-[82%] w-[80%] md:mt-36'>En base a la información recopilada por DaniGPT, obtendrás claridad con un marco conceptual transparente e intuitivo, que genera una hipótesis sobre tu problema, vinculando todos los elementos relevantes. <a className='font-semibold underline text-blue-500' target="_blank" rel='nofollow' href="ficha-ejemplo.pdf">Mira el Caso de Ejemplo.</a></div></div></div>
 
   </div>
 
@@ -115,29 +116,45 @@ const WidgetComponent = () => {
 
   {/* Position the WhatsApp notification */}
   
-        <div  className="absolute inset-0 flex justify-center items-center">
-          <div  className="bg-gray-50 bg-opacity-50 rounded-lg text-black text-center px-2 py-2 w-[80%]">
-            <div  className="flex justify-between items-center px-4">
-              <div  className="flex items-center">
-                
-              </div>
-              <p  className="font-bold text-sm -mt-1 -ml-7">Dani</p>
-
-              <div  className="text-xs -mt-1 -mr-4">1 min</div>
+  <div  className="absolute inset-0 flex justify-center items-center">
+    <div id="dividir-2-filas" className=' xl:mt-36 flex grid gris-rows-2  w-[80%] flex justify-center items-center gap-2 mt-6'>
+        <div  className="bg-gray-50   bg-opacity-50 rounded-lg text-black grid grid-cols-2 gap-0 text-center py-2 w-[100%]">
+          <div class=' w-[50%]  flex flex-col items-center justify-center place-items-center relative'>
+            <img src="dani_picture.jpg" className='rounded-full w-[35px] h-[35px]' />
+            <img src="whatsapp_logo.png" alt="WhatsApp Icon"  className="w-[32px] h-[32px] z-40 absolute -mr-6 mt-6"></img>
+          </div>
+          <div  className="w-[141%] justify-between items-center ml-[-48%]">
+            <div  className="flex justify-between items-center -mt-1">              
+              <p  className="font-bold text-sm ">DaniGPT</p>
+              <p  className="text-xs text-slate-500 ">1 min</p>
             </div>
-            <div  className="px-10 py-2">
-
-              <p  className="font-normal text-xs -mt-1 -ml-6 -mr-14">Hola, ¿cómo estás?</p>
+            <div>
+              <p  className="font-normal text-left text-xs ">Entiendo, y ¿has ido a terapia antes por esto?</p>
             </div>
-          
+          </div>
+        </div>
+
+
+        <div  className="bg-gray-50  bg-opacity-50 rounded-lg text-black grid grid-cols-2 gap-0 text-center py-2 w-[100%]">
+          <div class=' w-[50%]  flex flex-col items-center justify-center place-items-center relative'>
+            <img src="dani_picture.jpg" className='rounded-full w-[35px] h-[35px]' />
+            <img src="whatsapp_logo.png" alt="WhatsApp Icon"  className="w-[32px] h-[32px] z-40 absolute -mr-6 mt-6"></img>
+          </div>
+          <div  className="w-[141%] justify-between items-center ml-[-48%]">
+            <div  className="flex justify-between items-center -mt-1">              
+              <p  className="font-bold text-sm ">DaniGPT</p>
+              <p  className="text-xs text-slate-500 ">2 min</p>
+            </div>
+            <div>
+              <p  className="font-normal text-left text-xs ">¿Por qué crees que te da ansiedad en los momentos familiares?</p>
+            </div>
+          </div>
+        </div>
     </div>
-  </div>
-
-  <img src="dani_picture.jpg" className='rounded-full w-[40px] h-[40px] -ml-16 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-30' />
-  <img src="whatsapp_logo.png" alt="WhatsApp Icon"  className="w-[34px] h-[34px] -ml-12 mt-4 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-40"></img>
 
 </div>
-    <div className='-mb-24'></div>
+
+</div>
     
 
     </section>

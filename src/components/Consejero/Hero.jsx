@@ -9,21 +9,21 @@ const Hero = () => {
         <div className='md:col-span-5 flex items-center justify-center p-8'> {/*Información CTA*/}
           <div>
             <h1 className='text-4xl sm:text-3xl font-normal  text-white'>
-              <span className='text-white font-bold'>Consejero </span>personalizado<br/> Inteligente<span className='text-white font-bold'>
+              <span className='text-white font-bold'>Consejera </span>personalizada<br/> Inteligente<span className='text-white font-bold'>
 
               </span>
             </h1>
             <br/>
             <h2>
-              <div className='text-white leading-[1.5rem] xl:max-w-lg font-base text-lg '>
+              <div className='text-white leading-[1.5rem] md:max-w-lg font-base text-lg '>
                 <div>
-                Este 2024, rompe todas tus metas
+                Este 2024, rompe todas tus metas con <a className="font-bold">Mia</a>
                 
               </div>
               </div>
             </h2>
             <br/>
-            <div className='xl:flex items-center gap-4 py-2'>
+            <div className='md:flex items-center gap-4 py-2'>
                 <a href="https://wa.me/message/UEPODIF6XTSYK1" target="_blank" rel='nofollow' className="sm:w-[150px] sm:justify-center  border-purple-primary dark:border-purple-light bg-crayola from-purple-primary to-purple-dark dark:from-white dark:to-purple-light text-white dark:text-purple-dark hover:brightness-110 focus:ring-purple-primary dark:focus:ring-purple-dark active:ring-purple-primary dark:active:ring-purple-dark transition font-semibold focus:outline-none focus:ring-4 focus:ring-opacity-50 active:ring-4 active:ring-opacity-50 flex shadow-sm  text-base px-4 py-2 rounded-lg text-lg">Prueba gratis</a>
                 <Link 
                 to="acceso"
@@ -31,7 +31,7 @@ const Hero = () => {
                 duration={1350}
                 className="sm:hidden font-thin text-sm hover:text-gray-400 hover:shadow sm:px-4 text-slate-300 hover:shadow-lg-white cursor-pointer italic"
                 >
-                  Después, desde US$ 3.5 / semana
+                  Después, desde $3 / semana
               </Link>.
 
           </div>

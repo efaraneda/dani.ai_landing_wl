@@ -220,9 +220,9 @@ export default function PlanCard({
           <>
             <div>
     <div className="flex items-start">
-    <a className="font-light text-2xl mt-1">$</a>
+    <a className="font-light text-2xl mt-1">{price === '3.5'||price === '11' ? 'US$' : 'CL$'}</a>
     {price === '3.5' ? '3' : price}
-    <a className="text-2xl font-light mt-1">{price === '3.5' ? '50' : '00'}</a>
+    <a className="text-2xl font-light mt-1">{price === '3.5' ? '50' : '00' ? price === '3.500':"" ? price === '11.000':""}</a>
     </div>
     </div>
 

@@ -84,17 +84,17 @@ const VideoPlayer = () => {
               }`}
               onClick={() => handleButtonClick('Documento')}
             >
-              <a>Delve Deeper</a>
+              <a>Profundiza</a>
             </div>
           </div>
         </div>
       </div>
       <div className="md:hidden flex justify-center items-center h-[200px]"> {/* Set a fixed height */}
         <div className="md:hidden -mt-48 h-full text-justify items-center w-[75%]">
-          {isButtonActive('Inicio') ? 'Saluda 👋 a DaniGPT. ¡Puedes compartir una situación específica, síntomas, hacer preguntas, pedir consejos o simplemente compartir tu progreso!' : 
-          isButtonActive('Durante') ? 'Dani responderá de manera natural y amigable. Ella puede hacer preguntas para entender mejor tu situación, guiarte paso a paso en la práctica de diferentes técnicas y revisar tu progreso de vez en cuando.' : 
-          isButtonActive('Fin') ? "Todo el mundo ama a DaniGPT. Es el consejero perfecto, siempre está ahí cuando más la necesitas. Según nuestros datos, los usuarios tienen más probabilidades de obtener resultados después de 8 semanas con al menos 2 veces por semana de uso." : 
-          isButtonActive('Documento') ? 'Justo como un consejero humano, DaniGPT funciona mejor cuando tiene un contexto estructurado sobre ti, tu trasfondo, tu problema y posibles causas fundamentales. Por tan solo $9, puedes desbloquear esta función adicional que es una evaluación psicológica exhaustiva que proporciona tanto al usuario como a DaniGPT todo lo que necesitan para tomar las mejores decisiones. Construido sobre una base de técnicas clínicamente probadas de la terapia cognitivo-conductual.' : ''}
+          {isButtonActive('Inicio') ? '¡Comparte detalles sobre tu vida amorosa o cualquier consulta relacionada con las relaciones, busca consejos y comparte tu progreso!' : 
+          isButtonActive('Durante') ? 'Mia responderá de manera natural y amigable. Ella puede hacer preguntas para comprender mejor tu situación, guiarte paso a paso a través de la práctica de diferentes técnicas, y verificar tu progreso de vez en cuando.' : 
+          isButtonActive('Fin') ? "Nuestros datos indican que los usuarios normalmente logran resultados visibles después de ocho semanas de uso, con al menos dos sesiones por semana." : 
+          isButtonActive('Documento') ? 'Justo como un ser humano, Mia puede ayudarte de mejor manera cuando tiene más contexto sobre ti, tu trasfondo y la naturaleza de tu problema. Desbloquea el potencial completo de Mia con una evaluación psicológica personalizada por un pago único de solo $9. Construida sobre técnicas clínicamente probadas de la moderna Terapia Cognitivo-Conductual, esta evaluación mejora la capacidad de Mia para brindar apoyo específico, asegurando que recibas la mejor asistencia posible.' : ''}
         </div>
       </div>
     </div>
@@ -115,21 +115,21 @@ const VideoPlayer = () => {
   <div className="sm:-mt-10 flex items-center justify-center md:-mr-16">
 
   {isButtonActive('Inicio') ? <img
-        title="Conoce a DaniGPT"
+        title="Conoce a Mia"
         controlsList="nodownload"
         src="parte_inicial_demo_web.gif"
         id="acceso"
         className="-mt-48 flex flex-col rounded-xl sm:w-[80%] sm:h-auto md:h-auto md:w-[250px]"
       ></img> : 
       isButtonActive('Durante') ? <img
-      title="Conoce a DaniGPT"
+      title="Conoce a Mia"
       controlsList="nodownload"
       src="parte_medio_demo_web.gif"
       id="acceso"
       className="-mt-48 flex flex-row rounded-xl sm:w-[80%] sm:h-auto md:h-auto md:w-[250px]"
     ></img> : 
       isButtonActive('Fin') ? <img
-      title="Conoce a DaniGPT"
+      title="Conoce a Mia"
       controlsList="nodownload"
       src="parte_final_demo_web.gif"
       id="acceso"
@@ -197,7 +197,7 @@ const VideoPlayer = () => {
         </div>
         <div className={`${isButtonActive('Documento') ? "sm:hidden h-full flex items-center text-justify w-[80%] md:-mt-14 md:py-1" : isButtonActive('Fin') ? "sm:hidden h-full flex items-center text-justify w-[80%] md:-mt-6" : isButtonActive('Durante') ? "sm:hidden h-full flex items-center text-justify w-[80%] md:-mt-4" : "sm:hidden h-full flex items-center text-justify w-[80%] md:-mt-7"}`}>
 
-            {isButtonActive('Inicio') ? 'Saluda 👋 a DaniGPT. ¡Puedes compartir una situación específica, síntomas, hacer preguntas, pedir consejos o simplemente compartir tu progreso!' : isButtonActive('Durante') ? 'Dani responderá de manera natural y amigable. Ella puede hacer preguntas para entender mejor tu situación, guiarte paso a paso en la práctica de diferentes técnicas y revisar tu progreso de vez en cuando.' : isButtonActive('Fin') ? "Todo el mundo ama a DaniGPT. Es el consejero perfecto, siempre está ahí cuando más la necesitas. Según nuestros datos, los usuarios tienen más probabilidades de obtener resultados después de 8 semanas con al menos 2 veces por semana de uso."   : isButtonActive('Documento') ? 'Justo como un consejero humano, DaniGPT funciona mejor cuando tiene un contexto estructurado sobre ti, tu trasfondo, tu problema y posibles causas fundamentales. Por tan solo $9, puedes desbloquear esta función adicional que es una evaluación psicológica exhaustiva que proporciona tanto al usuario como a DaniGPT todo lo que necesitan para tomar las mejores decisiones. Construido sobre una base de técnicas clínicamente probadas de la terapia cognitivo-conductual.' : ''}
+            {isButtonActive('Inicio') ? '¡Comparte detalles sobre tu vida amorosa o cualquier consulta relacionada con las relaciones, busca consejos y comparte tu progreso!' : isButtonActive('Durante') ? 'Mia responderá de manera natural y amigable. Ella puede hacer preguntas para comprender mejor tu situación, guiarte paso a paso a través de la práctica de diferentes técnicas, y verificar tu progreso de vez en cuando.' : isButtonActive('Fin') ? "Nuestros datos indican que los usuarios normalmente logran resultados visibles después de ocho semanas de uso, con al menos dos sesiones por semana."   : isButtonActive('Documento') ? 'Justo como un ser humano, Mia puede ayudarte de mejor manera cuando tiene más contexto sobre ti, tu trasfondo y la naturaleza de tu problema. Desbloquea el potencial completo de Mia con una evaluación psicológica personalizada por un pago único de solo $9. Construida sobre técnicas clínicamente probadas de la moderna Terapia Cognitivo-Conductual, esta evaluación mejora la capacidad de Mia para brindar apoyo específico, asegurando que recibas la mejor asistencia posible.' : ''}
           </div>
       </div>
     </div>

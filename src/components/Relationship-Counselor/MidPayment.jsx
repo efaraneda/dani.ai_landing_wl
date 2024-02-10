@@ -12,7 +12,7 @@ const Mid = () => {
         </p>
       </div>
       
-      <div className="flex flex-col gap-8 p-10 xl:flex-row">
+      <div className="flex flex-col gap-8 p-10 md:flex-row">
         <PlanCard
           color="#000000"
           name="Mia Weekly"
