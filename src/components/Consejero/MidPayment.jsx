@@ -37,7 +37,7 @@ const Mid = () => {
       <div className="flex flex-col gap-8 p-10 md:flex-row">
         <PlanCard
           color="#000000"
-          name="DaniGPT Semanal"
+          name="Mia Semanal"
           description="Ideal para empezar"
           features={['Mensajes de Texto & Voz ilimitados', 'Sin cobros automáticos', '7 días de acceso']}
           btnText="Acceso Semanal"
@@ -46,7 +46,7 @@ const Mid = () => {
         />
         <PlanCard
           color="#000080"
-          name="DaniGPT Mensual"
+          name="Mia Mensual"
           description="Ideal para renovar"
           features={['Mensajes de Texto & Voz ilimitados', 'Sin cobros automáticos', '30 días de acceso']}
           btnText="Acceso Mensual"

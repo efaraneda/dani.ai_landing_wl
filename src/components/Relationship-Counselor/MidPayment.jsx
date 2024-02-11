@@ -4,7 +4,7 @@ const Mid = () => {
   const id_1 = urlParams.get('id_1');
   const id_2 = urlParams.get('id_2');
   return (
-    <div  className="flex flex-col items-center p-4">
+    <div id="pricing" className="flex flex-col items-center p-4">
       <div className="mb-2 text-center">
         <h1 className="mb-4 text-4xl font-black text-black">Pricing</h1 >
         <p className="text-lg text-black md:w-[90vh]">
