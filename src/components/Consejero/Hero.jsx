@@ -1,9 +1,7 @@
 import { Link } from "react-scroll";
 
+
 const Hero = () => {
-
-
-
     return (
       <section className="bg-navy h-[80vh] grid grid-cols-1 md:grid-cols-8">
         <div className='md:col-span-5 flex items-center justify-center p-8'> {/*Información CTA*/}
@@ -58,9 +56,6 @@ const Hero = () => {
   {/* Top circle */}
   <div className="sm:hidden absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-[250px] h-[250px] md:w-[322px] md:h-[322px] border-[11px] border-crayola rounded-full z-20"></div>
 </div>
-
-
-
     </section>
   );
 };

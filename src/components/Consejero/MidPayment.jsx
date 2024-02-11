@@ -11,13 +11,13 @@ const Mid = () => {
   };
 
   return (
-    <div className="flex flex-col items-center p-4">
+    <div id="pricing" className="flex flex-col items-center p-4">
       <div className="mb-2 text-center">
         <h1 className="mb-4 text-4xl font-black text-black">Precios</h1>
         <p className="text-lg text-black md:w-[90vh]">
           Elige la mejor opción para ti. Empieza a trabajar en tus metas hoy!
           </p>
-          <div className="flex justify-center  mx-auto w-[auto] sm:max-w-[320px] max-w-[70%] bg-slate-200 rounded-xl py-5 mt-4">
+          <div  className="flex justify-center  mx-auto w-[auto] sm:max-w-[320px] max-w-[70%] bg-slate-200 rounded-xl py-5 mt-4">
           <div className="flex px-2  mr-8">
       <p className="flex justify-center items-center">Dólares </p>
       <img src="usa.png" className="rounded w-auto h-4 my-auto justify-center items-center ml-2" />

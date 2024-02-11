@@ -7,8 +7,8 @@ import WidgetComponent from "../../components/Consejero/ComoFunciona";
 import Equipo from "../../components/Consejero/Equipo";
 import Payment from "../../components/Consejero/MidPayment";
 
-
 function Home() {
+  
 
   return (
     <div>
