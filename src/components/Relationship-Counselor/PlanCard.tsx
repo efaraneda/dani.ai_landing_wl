@@ -210,7 +210,7 @@ export default function PlanCard({
   return (
     <div
       style={{ backgroundColor: color }}
-      className="flex min-h-[428px] w-[320px] flex-col rounded-3xl p-8"
+      className="flex min-h-[428px] w-[330px] flex-col rounded-3xl p-8"
     >
       <h2 className="mb-5 text-xl font-medium text-white">{name}</h2>
       <div className="mb-5 flex items-end text-6xl text-white">
