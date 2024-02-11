@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/ES/Home";
 import Privacidad from "./pages/ES/Privacidad";
 import Terminos from "./pages/ES/Terminos";
