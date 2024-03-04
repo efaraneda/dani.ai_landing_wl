@@ -20,17 +20,19 @@ const Hero = () => {
               </div>
             </h2>
             <br/>
-            <div className='md:flex items-center gap-4 py-2'>
-                <a href="https://wa.me/message/JBOR5VI34XEAA1" target="_blank" rel='nofollow' className="sm:w-[150px] sm:justify-center  border-purple-primary dark:border-purple-light bg-crayola from-purple-primary to-purple-dark dark:from-white dark:to-purple-light text-white dark:text-purple-dark hover:brightness-110 focus:ring-purple-primary dark:focus:ring-purple-dark active:ring-purple-primary dark:active:ring-purple-dark transition font-semibold focus:outline-none focus:ring-4 focus:ring-opacity-50 active:ring-4 active:ring-opacity-50 flex shadow-sm  text-base px-4 py-2 rounded-lg text-lg">Start Now</a>
-                <Link 
-                to="acceso"
+            <div className='md:flex items-center gap-4 py-2 sm:grid sm:grid-cols-2'>
+                <div>
+                  <a href="https://wa.me/message/JBOR5VI34XEAA1" target="_blank" rel='nofollow' className="sm:w-[150px] sm:justify-center  border-purple-primary dark:border-purple-light bg-crayola from-purple-primary to-purple-dark dark:from-white dark:to-purple-light text-white dark:text-purple-dark hover:brightness-110 focus:ring-purple-primary dark:focus:ring-purple-dark active:ring-purple-primary dark:active:ring-purple-dark transition font-semibold focus:outline-none focus:ring-4 focus:ring-opacity-50 active:ring-4 active:ring-opacity-50 flex shadow-sm  text-base px-4 py-2 rounded-lg text-lg">Start Now</a>
+                </div>
+                <div className="flex flex-col italic"><Link 
+                to="funciona2"
                 smooth={true}
-                duration={1350}
-                className="hidden hover:text-gray-400 sm:px-4 text-white hover:shadow-lg-white cursor-pointer"
+                duration={1550}
+                className="md:hidden hover:text-gray-400 sm:px-4 flex text-white hover:shadow-lg-white cursor-pointer"
                 >
                   Learn more
               </Link>
-
+              </div>
           </div>
         </div>
       </div>

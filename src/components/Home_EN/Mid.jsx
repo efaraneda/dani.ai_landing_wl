@@ -132,12 +132,13 @@ const VideoPlayer = () => {
       id="acceso"
       className="rounded-xl sm:w-[80%] sm:-mt-24 sm:h-auto md:h-auto md:w-[250px]"
     ></img> : 
-      isButtonActive('Documento') ? <iframe
-      src="https://prod-bkt-marketing.s3.amazonaws.com/example-file-2.pdf"
-      className="rounded-xl sm:w-[90%] sm:h-[50vh] md:-mt-68 sm:mt-18 md:h-[55vh] md:w-[330px] md:-ml-10"
-      allowFullScreen
-      title="Caso de ejemplo"
-    ></iframe>
+      isButtonActive('Documento') ? <div className="rounded-xl sm:w-[90%] sm:h-[50vh] md:-mt-68 sm:mt-18 md:h-[55vh] md:w-[330px] md:-ml-10">
+      <div>
+      <embed src="https://drive.google.com/file/d/14Z_VgZrT7A_0-mbIXZI2MS66RIaFoKBF/preview" 
+      width="100%" height="400" frameborder="0" scrolling="no"></embed>
+
+        </div>
+  </div>
 : ''}
 
       
