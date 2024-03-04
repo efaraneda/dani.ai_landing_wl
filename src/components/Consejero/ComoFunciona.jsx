@@ -162,7 +162,7 @@ const WidgetComponent = () => {
   <div  className="absolute inset-0 flex justify-center items-center">
     <div id="dividir-2-filas" className=' xl:mt-36 flex w-[80%] flex justify-center items-center '>
         <div  className="bg-gray-50   bg-opacity-50 rounded-lg text-black grid grid-cols-2 gap-0 text-center py-2 w-[100%]">
-          <div class=' w-[50%]  flex flex-col items-center justify-center place-items-center relative'>
+          <div className=' w-[50%]  flex flex-col items-center justify-center place-items-center relative'>
             <img src="mia.jpeg" className='rounded-full w-[35px] h-[35px]' />
             <img src="whatsapp_logo.png" alt="WhatsApp Icon"  className="w-[32px] h-[32px] z-40 absolute -mr-6 mt-6"></img>
           </div>
