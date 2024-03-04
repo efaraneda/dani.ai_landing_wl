@@ -31,8 +31,8 @@ const VideoPlayer = () => {
     </h2> 
     <div className="md:hidden grid grid-rows-2">
       <div className="flex flex-col items-center justify-center -mt-48">
-      <p className='w-[70%] text-slate-500 italic flex flex-col text-right justify-right '>Click here 👇</p>
-      <div className="w-[91%] py-0.5 shadow-md border border-gray-400 rounded-xl">
+      <p className='w-[70%] sm:w-[50%] text-slate-500 italic flex flex-col text-right justify-right '>Click here 👇</p>
+      <div className="w-[91%] sm:w-[80%] py-0.5 shadow-md border border-gray-400 rounded-xl">
         <div className="flex justify-center items-center ">
           <div
               className={`${
@@ -112,21 +112,21 @@ const VideoPlayer = () => {
   <div className="sm:-mt-16 flex items-center justify-center md:-mr-16 sm:mb-16">
 
   {isButtonActive('Inicio') ? <img
-        title="Conoce a DaniGPT"
+        title="Start"
         controlsList="nodownload"
         src="../parte1.gif"
         id="acceso"
         className="flex flex-col rounded-xl sm:-mt-24 sm:w-[80%] sm:h-auto md:h-auto md:w-[250px]"
       ></img> : 
       isButtonActive('Durante') ? <img
-      title="Conoce a DaniGPT"
+      title="Mid"
       controlsList="nodownload"
       src="../parte2.gif"
       id="acceso"
       className="flex flex-row rounded-xl sm:-mt-24 sm:w-[80%] sm:h-auto md:h-auto md:w-[250px]"
     ></img> : 
       isButtonActive('Fin') ? <img
-      title="Conoce a DaniGPT"
+      title="End"
       controlsList="nodownload"
       src="../parte3.gif"
       id="acceso"
@@ -134,8 +134,7 @@ const VideoPlayer = () => {
     ></img> : 
       isButtonActive('Documento') ? <iframe
       src="https://prod-bkt-marketing.s3.amazonaws.com/example-file-2.pdf"
-      className="rounded-xl sm:w-[88%] sm:h-[60vh] md:-mt-58 sm:mt-18 md:h-[70vh] md:w-[300px]"
-      seamless
+      className="rounded-xl sm:w-[90%] sm:h-[50vh] md:-mt-68 sm:mt-18 md:h-[55vh] md:w-[330px] md:-ml-10"
       allowFullScreen
       title="Caso de ejemplo"
     ></iframe>
@@ -192,7 +191,7 @@ const VideoPlayer = () => {
             </div>
           </div>
         </div>
-          <div className="sm:hidden h-full flex items-center text-justify justify-left w-[80%] md:-mt-16">
+          <div className="sm:hidden h-full flex items-center text-justify justify-left w-[80%] md:mt-2">
             {isButtonActive('Inicio') ? 'The assessment starts on WhatsApp and typically takes about 30 minutes to finish and receive your results.' : isButtonActive('Durante') ? "Dani will guide you through various questions during the assessment. It's important to answer naturally and truthfully so that our technology can produce accurate and helpful outcomes." : isButtonActive('Fin') ? "After you're done, you'll get a document that presents clinical insights. It's crafted within a conceptual framework designed to make it easier to understand the issue and its origins."   : isButtonActive('Documento') ? (
       <span>
         Take a look at <a className='font-semibold underline text-blue-500' target="_blank" rel='nofollow' href="https://prod-bkt-marketing.s3.amazonaws.com/example-file-2.pdf">Jame's Case</a> as an example. While all cases follow the same format, the content is tailored to the unique aspects of each one. Additionally, they cover the Patient's Strengths, Treatment Plan, General Background, Working Hypotheses, Suggested Goals, and recommend Psychotherapists suited for the specific case, enabling immediate action on the problem.{' '}
