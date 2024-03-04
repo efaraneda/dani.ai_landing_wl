@@ -7,10 +7,9 @@ const Hero = () => {
     return (
       <section className="bg-navy h-[80vh] grid grid-cols-1 md:grid-cols-8">
         <div className='md:col-span-5 flex items-center justify-center p-8'> {/*Información CTA*/}
-          <div>
-            <h1 className='md:text-4xl sm:text-2xl font-normal  text-white'>
-              <span className='text-white font-bold'>Clear Your Mind In Private</span>, <br className="sm:hidden"/>AI Mental Health Assessment<span className='text-white font-bold'> 
-                  </span>
+          <div className="sm:-ml-6">
+            <h1 className='md:text-4xl sm:text-2xl sm:-mr-4 font-normal text-white'>
+              <a className='text-white font-bold'>Clear Your Mind In Private</a>, <br className=""/>AI Mental Health Assessment
             </h1>
             <br/>
             <h2>

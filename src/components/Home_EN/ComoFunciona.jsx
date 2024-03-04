@@ -51,7 +51,7 @@ const WidgetComponent = () => {
   bg-navy md:rounded-lg sm:w-full sm:h-[auto]'>
           <div className='max-h-[400px] sm:max-w-[80%] sm:-mb-6'>
               <div className='sm:mt-14 sm:mx-auto md:mt-14 flex justify-center items-center transform translate-x-1/2 -translate-y-1/2 rounded-full w-[56px] h-[56px] bg-lavanda'>
-                <BiSolidLockAlt className='text-4xl text-crayola'/>  
+                <AiFillHeart className='text-4xl text-crayola'/>  
               </div>
               <div className='sm:ml-12 sm:text-center text-xl md:ml-7 font-bold text-white'>
               Access Made Simple
@@ -62,7 +62,7 @@ const WidgetComponent = () => {
           </div>
           <div className='max-h-[400px] sm:max-w-[80%] sm:-mb-6'>
               <div className='sm:mt-16 sm:mx-auto md:mt-14 flex justify-center items-center transform translate-x-1/2 -translate-y-1/2 rounded-full w-[56px] h-[56px] bg-lavanda'>
-                <BiSolidConversation className='text-4xl text-crayola'/>
+                <MdMemory className='text-4xl text-crayola'/>
               </div>
               <div className='sm:ml-12 sm:text-center text-xl md:ml-7 font-bold text-white'>
               10x More Efficient
@@ -71,7 +71,7 @@ const WidgetComponent = () => {
               items-center transform translate-x-4 -translate-y-28 md:ml-3 md:w-[80%] md:mt-36 sm:text-lg'>Skip the procedures, waiting lists, and scheduling hassles. A report similar to what DaniGPT produces could take five traditional psychotherapy sessions, but Dani gets it done in just 30 minutes.              </div></div></div>
           <div className='max-h-[400px] sm:max-w-[80%] sm:-mb-6'>
             <div className='sm:mt-16 sm:mx-auto md:mt-14 flex justify-center items-center transform translate-x-1/2 -translate-y-1/2 rounded-full w-[56px] h-[56px] bg-lavanda'>
-          <GiHumanTarget className='text-4xl text-crayola h-[55%] w-auto' /></div>
+          <BiSolidConversation className='text-4xl text-crayola h-[55%] w-auto' /></div>
           <div className='sm:ml-12 sm:text-center md:ml-7 text-xl font-bold text-white'>
           Conversational
               </div>

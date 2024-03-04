@@ -37,10 +37,10 @@ const Header = () => {
         } top-0 md:static flex-1 flex flex-col md:flex-row items-center justify-center gap-10 transition-all duration-500 z-50`}
       >
         <Link
-          to="funciona"
+          to="funciona2"
           smooth={true}
           duration={1350}
-          className="hover:bg-resolution px-3 hover:py-2 hover:rounded-lg hover:bg-rounded cursor-pointer md:ml-2 lg:text-lg"
+          className="hover:bg-blue-900 px-3 hover:py-2 hover:rounded-lg hover:bg-rounded cursor-pointer md:ml-2 lg:text-lg"
           onClick={closeMenu} // Close the menu when link is clicked
         >
           How does it work?
@@ -49,7 +49,7 @@ const Header = () => {
           to="empresas"
           smooth={true}
           duration={1350}
-          className="hover:bg-resolution px-3 hover:py-2 hover:rounded-lg hover:bg-rounded cursor-pointer md:ml-10 md:mr-8 md:-px-14 lg:text-lg"
+          className="hover:bg-blue-900 px-3 hover:py-2 hover:rounded-lg hover:bg-rounded cursor-pointer md:ml-10 md:mr-8 md:-px-14 lg:text-lg"
           onClick={closeMenu} // Close the menu when link is clicked
         >
           Medical Centers

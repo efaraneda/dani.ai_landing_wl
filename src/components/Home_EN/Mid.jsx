@@ -26,7 +26,7 @@ const VideoPlayer = () => {
 
 <div> 
   <div className='bg-white w-full -mt-14'>
-    <h2 id="funciona" className='md:hidden mt-10 py-20 flex flex-col items-center justify-center text-3xl font-bold text-center text-oxford'>
+    <h2 className='md:hidden mt-10 py-20 flex flex-col items-center justify-center text-3xl font-bold text-center text-oxford'>
       How does it work?
     </h2> 
     <div className="md:hidden grid grid-rows-2">
@@ -76,7 +76,7 @@ const VideoPlayer = () => {
               }`}
               onClick={() => handleButtonClick('Documento')}
             >
-              <a>Results</a>
+              <a >Results</a>
             </div>
           </div>
         </div>
@@ -98,9 +98,9 @@ const VideoPlayer = () => {
   </div>
 
   
-  <div className="md:w-[90%] grid md:grid-cols-2 sm:flex-col md:flex-row relative h-auto sm:mt-14 sm:mb-4 gap-4">
+  <div id="funciona2" className="md:w-[90%] grid md:grid-cols-2 sm:flex-col md:flex-row relative h-auto sm:mt-14 sm:mb-4 gap-4">
   <div></div>
-  <div id="funciona">
+  <div>
        <h2 className='sm:hidden  mb-10 mt-40 md:mt-36 flex flex-col px-14 items-left justify-left text-3xl font-bold text-left text-oxford'>      How does it work?
 </h2> 
       <p className='sm:hidden md:w-[340px] flex flex-col justify-center text-slate-500 italic items-right text-right justify-right'>Click here 👇 </p>  
@@ -114,21 +114,21 @@ const VideoPlayer = () => {
   {isButtonActive('Inicio') ? <img
         title="Conoce a DaniGPT"
         controlsList="nodownload"
-        src="../parte_inicial_demo_web.gif"
+        src="../parte1.gif"
         id="acceso"
         className="flex flex-col rounded-xl sm:-mt-24 sm:w-[80%] sm:h-auto md:h-auto md:w-[250px]"
       ></img> : 
       isButtonActive('Durante') ? <img
       title="Conoce a DaniGPT"
       controlsList="nodownload"
-      src="../parte_medio_demo_web.gif"
+      src="../parte2.gif"
       id="acceso"
       className="flex flex-row rounded-xl sm:-mt-24 sm:w-[80%] sm:h-auto md:h-auto md:w-[250px]"
     ></img> : 
       isButtonActive('Fin') ? <img
       title="Conoce a DaniGPT"
       controlsList="nodownload"
-      src="../parte_final_demo_web.gif"
+      src="../parte3.gif"
       id="acceso"
       className="rounded-xl sm:w-[80%] sm:-mt-24 sm:h-auto md:h-auto md:w-[250px]"
     ></img> : 
@@ -206,7 +206,7 @@ const VideoPlayer = () => {
     <div className='md:hidden bg-slate-200 flex flex-col items-center justify-center py-14'>
       
       <h4 className="font-semibold text-center text-2xl mt-10">Our promise</h4>
-      <div className='py-4 w-[60%] text-center'> In 30 min you will be ready to tackle your issues</div>
+      <div className='py-4 w-[60%] text-center text-lg'> In 30 min you will be ready to tackle your issues</div>
          
             <button 
   className="border-purple-primary dark:border-purple-light bg-crayola from-purple-primary to-purple-dark dark:from-white dark:to-purple-light text-white dark:text-purple-dark hover:brightness-110 focus:ring-purple-primary dark:focus:ring-purple-dark active:ring-purple-primary dark:active:ring-purple-dark transition font-semibold focus:outline-none focus:ring-4 focus:ring-opacity-50 active:ring-4 active:ring-opacity-50 flex shadow-sm border text-base px-4 py-2 rounded-lg text-lg" 
