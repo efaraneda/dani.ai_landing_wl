@@ -23,7 +23,7 @@ const WidgetComponent = () => {
               Safety & Privacy
               </div>
               <div className='sm:mt-32  sm:text-justify  text-white text-sm font-light md:mt-14    
-              items-center   -translate-y-28 md:ml-3 md:w-[80%] md:mt-36 sm:text-lg'>Your conversations are private, secure, and anonymous. We treat all user data as Protected Health Information (PHI) and fully comply with HIPAA regulations to ensure your information is protected.
+              items-center   -translate-y-28 md:ml-7 md:w-[80%] md:mt-36 sm:text-lg'>Your conversations are private, secure, and anonymous. We treat all user data as Protected Health Information (PHI) and fully comply with HIPAA regulations to ensure your information is protected.
    
               </div>
           </div>
@@ -35,7 +35,7 @@ const WidgetComponent = () => {
               Accurate results
               </div>
               <div><div className='sm:mt-32  sm:text-justify  text-white text-sm font-light md:mt-14    
-              items-center   -translate-y-28 md:ml-3 md:w-[80%] md:mt-36 sm:text-lg'>We employ some of the most sophisticated AI models available to guarantee the highest possible accuracy in our results. Before introducing our product to the market, we carried out extensive testing.</div></div></div>
+              items-center   -translate-y-28 md:ml-7 md:w-[80%] md:mt-36 sm:text-lg'>We employ some of the most sophisticated AI models available to guarantee the highest possible accuracy in our results. Before introducing our product to the market, we carried out extensive testing.</div></div></div>
           <div className='sm:mx-auto  max-h-[400px] sm:max-w-[80%] sm:-mb-6'>
               <div className='sm:mt-16 sm:mx-auto md:mt-14 flex justify-center items-center transform md:translate-x-1/2 -translate-y-1/2 rounded-full w-[56px] h-[56px] bg-lavanda'>
 
@@ -44,7 +44,7 @@ const WidgetComponent = () => {
             Clinical Foundations
               </div>
         <div><div className='sm:mt-32  sm:text-justify  text-white text-sm font-light md:mt-14    
-              items-center   -translate-y-28 md:ml-3 md:w-[80%] md:mt-36 sm:text-lg'>Our evaluation draws on the methods of cognitive behavioral therapy (CBT), widely regarded as the "gold standard" in contemporary psychotherapy. Its effectiveness is well-documented across numerous studies.
+              items-center   -translate-y-28 md:ml-7 md:w-[80%] md:mt-36 sm:text-lg'>Our evaluation draws on the methods of cognitive behavioral therapy (CBT), widely regarded as the "gold standard" in contemporary psychotherapy. Its effectiveness is well-documented across numerous studies.
               </div></div></div>
   </div>
 {/* div color navy 2 - version small devices */}

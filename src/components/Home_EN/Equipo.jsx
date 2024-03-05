@@ -50,8 +50,8 @@ const Equipo = () => {
             </div>
             <div className="pt-5"></div></div>  
   <div className='flex items-center mb-10 mt-12 sm:mt-12  justify-center'>
-    <img src="../aws.png" alt="AWS icon" className="hover:brightness-110 w-auto md:h-[7vh] sm:h-[6vh]"></img>
-    <img src="../Theragen2024.png" alt="Trust icon" className="hover:brightness-110 md:px-[12vh] sm:px-[4vh] w-auto md:h-[10vh] sm:h-[8vh]"></img>
+    <img src="../aws.png" alt="AWS icon" className="sm:hidden hover:brightness-110 w-auto md:h-[7vh] sm:h-[5vh]"></img>
+    <img src="../Theragen2024.png" alt="Trust icon" className="hover:brightness-110 sm:-ml-10 md:px-[12vh] sm:px-[4vh] w-auto md:h-[10vh] sm:h-[9vh]"></img>
     <img src="../MicrosoftForStartups.webp" alt="Google icon" className="hover:brightness-110 w-auto md:h-[8vh] sm:h-[7vh]"></img>
   </div>
 </div>
