@@ -28,8 +28,8 @@ const Equipo = () => {
   return (
     
 <section className="flex flex-col items-center justify-center w-full mb-16" >
-<div className='bg-slate-200 w-full md:h-auto sm:h-auto sm:-mt-8 flex flex-col items-center justify-center py-10'>
-      <h4 className="font-semibold text-center text-2xl lg:text-4xl mt-10">Ideal para cubrir listas de espera de atención de salud mental </h4>
+<div className='bg-slate-200 md:w-full md:h-auto sm:h-auto sm:-mt-8 flex flex-col items-center justify-center py-10'>
+      <h4 className="font-bold sm:w-[90%] text-justify sm:text-center text-3xl lg:text-4xl mt-10">También trabajamos con Centros de Salud Mental</h4><div className='text-lg py-4 text-justify sm:w-[90%] sm:text-center'> Solicita información para conocer cómo estamos potenciando la práctica clínica.</div>
       <div className="sm:w-[90%] fade-in-translate visible">
         <div  className="mt-4 flex items-center gap-x-3 max-w-2xl mx-auto">
           <div className="relative w-full" id="equipo">
@@ -45,54 +45,49 @@ const Equipo = () => {
   onClick={handleButtonClick}
 
 >
-  Empresas
+  Send
 </button>
             </div>
             <div className="pt-5"></div></div>  
-  <div className='flex items-center mb-10 mt-12 sm:mt-6 justify-center'>
-    <img src="aws.png" alt="AWS icon" className="hover:brightness-110 w-auto md:h-[7vh] sm:h-[4vh]"></img>
-    <img src="trust.png" alt="Trust icon" className="hover:brightness-110 md:px-[10vh] sm:px-[7vh] w-auto md:h-[8vh] sm:h-[5vh]"></img>
-    <img src="MicrosoftForStartups.webp" alt="Google icon" className="hover:brightness-110 w-auto md:h-[8vh] sm:h-[5vh]"></img>
+  <div className='flex items-center mb-10 mt-12 sm:mt-12  justify-center'>
+    <img src="../aws.png" alt="AWS icon" className="sm:hidden hover:brightness-110 w-auto md:h-[7vh] sm:h-[5vh]"></img>
+    <img src="../Theragen2024.png" alt="Trust icon" className="hover:brightness-110 sm:-ml-10 md:px-[12vh] sm:px-[4vh] w-auto md:h-[10vh] sm:h-[9vh]"></img>
+    <img src="../MicrosoftForStartups.webp" alt="Google icon" className="hover:brightness-110 w-auto md:h-[8vh] sm:h-[7vh]"></img>
   </div>
 </div>
-<h4 className="font-bold text-center text-3xl lg:text-4xl mt-24">Equipo fundador</h4>
-<p className="mt-4 text-lg text-black sm:text-center">Combinando Psicología Clínica e Ingeniería.</p>
+<h4 className="font-bold text-center text-3xl lg:text-4xl mt-24">Equipo Fundador</h4>
+    <p className="mt-4 text-lg text-black sm:w-[90%] sm:text-center">Combinando Psicología Clínica e Ingeniería.</p>
 <div className="grid md:grid-cols-2 sm:grid-rows-2 mt-10">
 <div className="px-20 w-80% flex flex-col items-center justify-center bg-white-500">
     <div className="flex items-center justify-center"> 
-      <img alt="" src="Anastasia-removebg.png" className="w-[130px] h-auto rounded-full" />
+      <img alt="" src="../Anastasia-removebg.png" className="w-[130px] h-auto rounded-full" />
     </div>
     <p className="text-2xl mt-2">Anastasia Batkhina</p>
     <p className="text-center text-slate-500 text-base">Ph.D., Directora Clínica & Co-fundadora</p>
     <div className="flex items-center justify-center mt-2"> 
       <a href="https://www.linkedin.com/in/anastasia-batkhina-phd-986b9b10b/" className="bg-red-200 hover:brightness-110 mr-4">
-        <img src="linkedin.png" className="w-[20px] h-auto" alt="LinkedIn" />
+        <img src="../linkedin.png" className="w-[20px] h-auto" alt="LinkedIn" />
       </a>
       <div className="-mt-1 -mr-1">|</div>
       <a href="https://www.researchgate.net/profile/Anastasia-Batkhina" className=" hover:brightness-110 ml-4">
-        <img src="researchgate1714.jpg" className="w-[120px] h-auto" alt="ResearchGate" />
+        <img src="../researchgate1714.jpg" className="w-[120px] h-auto" alt="ResearchGate" />
       </a>
     </div>
     <p className="mt-4 md:h-[22vh] text-justify">
-      Investigadora, Psicóloga clínica y Doctorado en Psicología. 
-      Fue Directora Académica en la National Research University de Moscú. 
-      Tiene experiencia construyendo productos digitales y chatbots de psicología.
+    Investigadora, Psicóloga Clínica y Doctor en Psicología con experiencia en la creación de productos de psicología digital respaldados por la ciencia. Autora de más de 20 estudios científicos. <a className="underline text-crayola" href='https://onlinelibrary.wiley.com/doi/10.1111/famp.12733'>[Publicación destacada]</a> 
     </p>
 
     </div>
     <div className="px-20 w-80% flex flex-col items-center justify-center bg-white-500">
     <div className="md:mt-8 flex items-center justify-center"> 
-      <img alt="" src="Emiliano-removebg-preview.png" className="w-[130px] h-auto rounded-full md:-mt-8" />
+      <img alt="" src="../Emiliano-removebg-preview.png" className="w-[130px] h-auto rounded-full md:-mt-8 sm:mt-14" />
     </div>
     <p className="text-2xl mt-2">Emiliano Araneda</p>
     <p className="text-slate-500 text-base mb-2">CTO & Co-fundador</p>
       <a href="https://www.linkedin.com/in/efaraneda/" className=" hover:brightness-110">
-        <img src="linkedin.png" className="items-center justify-center w-[20px] h-auto" alt="LinkedIn" />
+        <img src="../linkedin.png" className="items-center justify-center w-[20px] h-auto" alt="LinkedIn" />
       </a>
-    <p className="mt-4   md:h-[22vh] text-justify">
-          Ingeniero de Datos. Magíster en Administración y Estrategia. 
-          Candidato a Magíster en Ciencia de Datos. 
-          Especialista en optimización de Modelos de Lenguage de Inteligencia Artificial.
+    <p className="mt-4   md:h-[22vh] text-justify">Ingeniero de Datos. Magíster en Administración y Estrategia. Candidato a Magíster en Ciencia de Datos. Especialista en optimización de Modelos de Lenguage de Inteligencia Artificial.
     </p>
 
     </div>
