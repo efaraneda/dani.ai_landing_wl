@@ -114,21 +114,21 @@ const VideoPlayer = () => {
   {isButtonActive('Inicio') ? <img
         title="Start"
         controlsList="nodownload"
-        src="../parte1.gif"
+        src="../parte1_esp_nueva.gif"
         id="acceso"
         className="flex flex-col rounded-xl sm:-mt-24 sm:w-[80%] sm:h-auto md:h-auto md:w-[250px]"
       ></img> : 
       isButtonActive('Durante') ? <img
       title="Mid"
       controlsList="nodownload"
-      src="../parte2.gif"
+      src="../parte2_esp_nueva.gif"
       id="acceso"
       className="flex flex-row rounded-xl sm:-mt-24 sm:w-[80%] sm:h-auto md:h-auto md:w-[250px]"
     ></img> : 
       isButtonActive('Fin') ? <img
       title="End"
       controlsList="nodownload"
-      src="../parte3.gif"
+      src="../parte3_esp_nueva.gif"
       id="acceso"
       className="rounded-xl sm:w-[80%] sm:-mt-24 sm:h-auto md:h-auto md:w-[250px]"
     ></img> : 
