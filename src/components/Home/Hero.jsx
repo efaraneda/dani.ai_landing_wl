@@ -8,14 +8,14 @@ const Hero = () => {
       <section className="bg-navy h-[80vh] grid grid-cols-1 md:grid-cols-8">
         <div className='md:col-span-5 flex items-center justify-center p-8'> {/*Información CTA*/}
           <div className="sm:-ml-6">
-            <h1 className='md:text-4xl sm:text-2xl sm:-mr-4 font-normal text-white'>
+            <h1 className='md:text-4xl sm:text-3xl sm:-mr-4 font-normal text-white'>
               <a className='text-white font-bold'>Aclara tu Mente en Privado</a>, <br className=""/>evaluación emocional 24/7
             </h1>
             <br/>
             <h2>
               <div className='text-white leading-[1.5rem] md:max-w-lg font-thin'>
-                <div>
-                Una herramienta de autoayuda innovadora <br className="md:hidden"/>basada en fundamentos clínicos. <br/>Nuestra promesa: <a className="font-semibold sm:hidden">en 30 minutos estarás listo para tomar acción.</a>
+                <div className="sm:text-lg">
+                Una herramienta de autoayuda innovadora <br className="md:hidden"/>basada en fundamentos clínicos. 
               </div>
               </div>
             </h2>
@@ -23,7 +23,7 @@ const Hero = () => {
             <div className='md:flex items-center gap-4 py-2 sm:grid sm:grid-cols-2'>
                 <div>
                   <a href="https://wa.me/message/UEPODIF6XTSYK1" target="_blank" rel='nofollow' className="sm:w-[150px] sm:justify-center  border-purple-primary dark:border-purple-light bg-crayola from-purple-primary to-purple-dark dark:from-white dark:to-purple-light text-white dark:text-purple-dark hover:brightness-110 focus:ring-purple-primary dark:focus:ring-purple-dark active:ring-purple-primary dark:active:ring-purple-dark transition font-semibold focus:outline-none focus:ring-4 focus:ring-opacity-50 active:ring-4 active:ring-opacity-50 flex shadow-sm  text-base px-4 py-2 rounded-lg text-lg">Evalúate</a>
-                </div>
+                </div> <a className="text-sm font-thin text-white sm:-ml-2 md:ml-4">En <a className="font-semibold">30 minutos </a>estarás listo<br className="md:hidden"/> para tomar acción.</a>
                 <div className="flex flex-col italic"><Link 
                 to="funciona2"
                 smooth={true}

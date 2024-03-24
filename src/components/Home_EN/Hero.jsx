@@ -8,14 +8,14 @@ const Hero = () => {
       <section className="bg-navy h-[80vh] grid grid-cols-1 md:grid-cols-8">
         <div className='md:col-span-5 flex items-center justify-center p-8'> {/*Información CTA*/}
           <div className="sm:-ml-6">
-            <h1 className='md:text-4xl sm:text-2xl sm:-mr-4 font-normal text-white'>
-              <a className='text-white font-bold'>Clear Your Mind In Private</a>, <br className=""/>AI Mental Health Assessment
+            <h1 className='md:text-4xl sm:text-3xl sm:-mr-4 font-normal text-white'>
+              <a className='text-white font-bold'>Clear Your Mind In Private</a>, <br className=""/>Emotional Assessment 24/7
             </h1>
             <br/>
             <h2>
               <div className='text-white leading-[1.5rem] md:max-w-lg font-thin'>
-                <div>
-                An innovative self-help tool for Men. <br className="md:hidden"/>Built on Clinical Foundations. <br/><a className="font-semibold sm:hidden">Our promise: in 30 min you will be ready to tackle your issues</a>
+                <div className="sm:text-lg">
+                An innovative self-help tool built on Clinical Foundations.
               </div>
               </div>
             </h2>
@@ -23,14 +23,14 @@ const Hero = () => {
             <div className='md:flex items-center gap-4 py-2 sm:grid sm:grid-cols-2'>
                 <div>
                   <a href="https://wa.me/message/JBOR5VI34XEAA1" target="_blank" rel='nofollow' className="sm:w-[150px] sm:justify-center  border-purple-primary dark:border-purple-light bg-crayola from-purple-primary to-purple-dark dark:from-white dark:to-purple-light text-white dark:text-purple-dark hover:brightness-110 focus:ring-purple-primary dark:focus:ring-purple-dark active:ring-purple-primary dark:active:ring-purple-dark transition font-semibold focus:outline-none focus:ring-4 focus:ring-opacity-50 active:ring-4 active:ring-opacity-50 flex shadow-sm  text-base px-4 py-2 rounded-lg text-lg">Start Now</a>
-                </div>
+                  </div> <a className="text-sm font-thin text-white sm:-ml-6 md:ml-4">It takes <a className="font-semibold">30 minutes </a>to get ready<br className="md:hidden"/> to tackle your issues.</a>
                 <div className="flex flex-col italic"><Link 
                 to="funciona2"
                 smooth={true}
                 duration={1550}
-                className="md:hidden hover:text-gray-400 sm:px-4 flex text-white hover:shadow-lg-white cursor-pointer"
+                className=" hover:text-gray-400 sm:px-4 flex text-white hover:shadow-lg-white cursor-pointer"
                 >
-                  Learn more
+                  
               </Link>
               </div>
           </div>
