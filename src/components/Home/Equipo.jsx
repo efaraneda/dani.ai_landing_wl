@@ -45,7 +45,7 @@ const Equipo = () => {
   onClick={handleButtonClick}
 
 >
-  Send
+  Enviar
 </button>
             </div>
             <div className="pt-5"></div></div>  

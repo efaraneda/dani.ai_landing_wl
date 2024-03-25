@@ -1,6 +1,14 @@
 import React, { useRef, useState } from 'react';
 
 const VideoPlayer = () => {
+  const handleClick = () => {
+    // Execute dataLayer.push('event') script here
+    window.dataLayer.push({
+      'event': 'click_cta',
+      'language':navigator.language
+      });
+      handleButtonClick();
+  };
   const videoRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [buttonClicked, setButtonClicked] = useState('Inicio');
@@ -211,7 +219,7 @@ const VideoPlayer = () => {
             <button 
   className="border-purple-primary dark:border-purple-light bg-crayola from-purple-primary to-purple-dark dark:from-white dark:to-purple-light text-white dark:text-purple-dark hover:brightness-110 focus:ring-purple-primary dark:focus:ring-purple-dark active:ring-purple-primary dark:active:ring-purple-dark transition font-semibold focus:outline-none focus:ring-4 focus:ring-opacity-50 active:ring-4 active:ring-opacity-50 flex shadow-sm border text-base px-4 py-2 rounded-lg text-lg" 
   type="submit"
-  onClick={handleButtonClick}
+  onClick={handleClick}
 
 >
   Start Now

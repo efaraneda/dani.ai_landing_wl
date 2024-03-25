@@ -20,7 +20,7 @@ const Links = () => {
   <div className="sm:col-span-1 sm:mb-4 md:ml-28 sm:px-2">
     <h4 className="py-4 mb-2 text-white font-bold">Navega</h4>
     <div className="flex flex-col">
-      <a href='https://theragen.ai/privacidad' className="md:h-10 md:w-auto hover:text-white py-2 text-gray-300" rel='nofollow'>Privacy</a>
+      <a href='https://theragen.ai/privacy' className="md:h-10 md:w-auto hover:text-white py-2 text-gray-300" rel='nofollow'>Privacy</a>
       <a href="https://theragen.ai" className="md:h-10 md:w-auto hover:text-white py-2 text-gray-300">How does it work?</a>
       <Link
           to="equipo"
@@ -62,7 +62,7 @@ const Links = () => {
   <div className="sm:hidden sm:col-span-1 sm:mb-4 md:ml-28 sm:px-2">
     <h4 className="py-4 mb-2 text-white font-bold">DaniGPT</h4>
     <div className="flex flex-col">
-      <a href='https://theragen.ai/privacidad' className="md:h-10 md:w-auto hover:text-white py-2 text-gray-300" rel='nofollow'>Privacy</a>
+      <a href='https://theragen.ai/privacy' className="md:h-10 md:w-auto hover:text-white py-2 text-gray-300" rel='nofollow'>Privacy</a>
       <a href="https://theragen.ai" className="md:h-10 md:w-auto hover:text-white py-2 text-gray-300">How does it work?</a>
       <Link
           to="equipo"
