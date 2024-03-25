@@ -216,14 +216,12 @@ const VideoPlayer = () => {
       <h4 className="font-semibold text-center text-2xl mt-10">Our promise</h4>
       <div className='py-4 w-[60%] text-center text-lg'> In 30 min you will be ready to tackle your issues</div>
          
-            <button 
+            <a 
   className="border-purple-primary dark:border-purple-light bg-crayola from-purple-primary to-purple-dark dark:from-white dark:to-purple-light text-white dark:text-purple-dark hover:brightness-110 focus:ring-purple-primary dark:focus:ring-purple-dark active:ring-purple-primary dark:active:ring-purple-dark transition font-semibold focus:outline-none focus:ring-4 focus:ring-opacity-50 active:ring-4 active:ring-opacity-50 flex shadow-sm border text-base px-4 py-2 rounded-lg text-lg" 
-  type="submit"
-  onClick={handleClick}
-
+  href="https://wa.me/message/JBOR5VI34XEAA1" onClick={handleClick} target="_blank" rel='nofollow'
 >
   Start Now
-</button>
+</a>
             </div>
             <div className='md:hidden py-6 bg-slate-200'></div>
     </div>
