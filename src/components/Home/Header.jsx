@@ -6,7 +6,14 @@ import {
 } from "react-icons/ri";
 
 const Header = () => {
-
+  const handleClick = () => {
+    // Execute dataLayer.push('event') script here
+    window.dataLayer.push({
+      'event': 'click_cta',
+      'language':navigator.language
+      });
+      closeMenu();
+  };
   const [showMenu, setShowMenu] = useState(false);
 
   // Function to close the menu
@@ -61,7 +68,7 @@ const Header = () => {
           target="_blank" 
           rel='nofollow'
           className="border-purple-primary dark:border-purple-light bg-crayola from-purple-primary to-purple-dark dark:from-white dark:to-purple-light text-white dark:text-purple-dark hover:brightness-110 focus:ring-purple-primary dark:focus:ring-purple-dark active:ring-purple-primary dark:active:ring-purple-dark transition font-semibold focus:outline-none focus:ring-4 focus:ring-opacity-50 active:ring-4 active:ring-opacity-50 flex shadow-sm  text-base px-4 py-2 rounded-lg text-lg"
-          onClick={closeMenu} // Close the menu when link is clicked
+          onClick={handleClick} // Close the menu when link is clicked
         >
           Evalúate ahora
         </a></div>
