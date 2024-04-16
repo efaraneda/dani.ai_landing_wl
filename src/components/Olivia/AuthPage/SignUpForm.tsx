@@ -65,6 +65,7 @@ const SignUpForm = (props: SignUpFormProps) => {
       label="Contraseña"
       name="password"
       placeholder="*********"
+      type="password"
       style={{
         width: isMobile ? "100%" : "calc(50% - 6px)",
         float: "right",
@@ -86,6 +87,7 @@ const SignUpForm = (props: SignUpFormProps) => {
           style={{
             width: isMobile ? "100%" : "calc(50% - 6px)",
             float: "right",
+            backgroundColor: "#3353C3"
           }}
         >
           COMENZAR!

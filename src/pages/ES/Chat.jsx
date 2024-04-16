@@ -18,9 +18,9 @@ function Privacidad() {
   }, []); // El array vacío asegura que el efecto se ejecute solo una vez al montar el componente
 
   return (
-    <div className="  ">
-      <div className="mt-10 flex flex-col ">
-        <h1 className="ml-32 text-xl mb-4">Conversación con Olivia</h1>
+    <div className="sm:bg-lavanda">
+      <div className="md:mt-10 flex flex-col sm:font-bold">
+        <h1 className="ml-32 text-xl md:mb-4 sm:mx-auto sm:text-bizantino">Conversación con Olivia</h1>
         <div className="ml-32 grid grid-cols-4">
           {/* <div className="flex ">
             Progreso
@@ -33,13 +33,13 @@ function Privacidad() {
           </div>*/}
         </div>
       </div>
-      <div className="mt-10">
+      <div className="md:mt-10">
         <iframe
           id="iFrame"
           src="https://efaraneda-olivia.hf.space"
           frameborder="0"
           width="100%"
-          height="600px"
+          height="1400px"
         ></iframe>
       </div>
     </div>
