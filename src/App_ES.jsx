@@ -3,6 +3,9 @@ import Home from "./pages/ES/Home";
 import Privacidad from "./pages/ES/Privacidad";
 import Terminos from "./pages/ES/Terminos";
 import Error404 from "./pages/ES/Error404";
+import Chat from "./pages/ES/Chat";
+import Login from "./pages/ES/Login";
+import "./assets/VisbyRoundCF-Regular.woff";
 
 function App() { 
   
@@ -12,6 +15,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/privacidad" element={<Privacidad />} /> 
         <Route path="/terminos" element={<Terminos />} />
+        <Route path="/registro" element={<Login />} />
+        <Route path="/chat" element={<Chat />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
     </BrowserRouter>
@@ -19,3 +24,4 @@ function App() {
 }
 
 export default App;
+
