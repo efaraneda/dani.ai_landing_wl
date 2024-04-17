@@ -6,7 +6,7 @@ import Error404 from "./pages/ES/Error404";
 import Chat from "./pages/ES/Chat";
 import Login from "./pages/ES/Login";
 import "./assets/VisbyRoundCF-Regular.woff";
-
+import Form from "./pages/ES/form";
 function App() { 
   
   return (
@@ -17,6 +17,7 @@ function App() {
         <Route path="/terminos" element={<Terminos />} />
         <Route path="/registro" element={<Login />} />
         <Route path="/chat" element={<Chat />} />
+        <Route path="/form" element={<Form />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
     </BrowserRouter>
