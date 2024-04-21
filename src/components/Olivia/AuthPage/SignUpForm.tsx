@@ -24,7 +24,7 @@ const SignUpForm = (props: SignUpFormProps) => {
     if (IdColegio === "SPCHICL"){
       try {
         const response = axios.get(`https://4r767aocla64zt774ccf447n6q0bgmxj.lambda-url.us-east-1.on.aws/?usuario=${usuario}&colegio=${IdColegio}&password=${contraseña}`);
-
+        localStorage.setItem('Olivia-user',usuario)
         alert('Username created successfully!');
       } catch (error) {
           console.error('Error:', error);

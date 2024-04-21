@@ -1,35 +1,56 @@
 import React, { useState, useEffect } from 'react';
+import invocarLambda from './lambda';
 
 function Form() {
-  const [pregunta, setPregunta] = useState("¿Cómo describirías el ambiente en tu sala durante las clases?");
+  const [pregunta, setPregunta] = useState("Saluda para comenzar!");
   const [respuesta, setRespuesta] = useState("");
+  const [api, setApi] = useState("");
 
-  var p2 = '¿Con qué frecuencia hay desorden durante las clases?'
- if (pregunta == '¿Con qué frecuencia hay desorden durante las clases?'){
-    var p2 = '¿Cómo crees que afecta el ambiente de la sala a tu capacidad para concentrarte?'
- }else if (pregunta == '¿Cómo crees que afecta el ambiente de la sala a tu capacidad para concentrarte?'){
- var p2 = '¿Te has sentido incómodo en el curso?'
- }
+
+
+  const handleInvocarLambda = async () => {
+    try {
+      const username = localStorage.getItem('Olivia-usr');
+      if (!username) {
+        setRespuesta("ERROR: NOMBRE DE USUARIO NO ENCONTRADO. Ingresa y vuelve a intentarlo");
+        iniciarEfectoMaquinaEscribir("ERROR: NOMBRE DE USUARIO NO ENCONTRADO. Ingresa y vuelve a intentarlo");
+        return;
+      }
+
+      const response = await invocarLambda(username, pregunta); // Invoca la función Lambda
+      setApi(response); // Actualiza la respuesta
+      iniciarEfectoMaquinaEscribir(response); // Inicia el efecto de máquina de escribir
+    } catch (err) {
+      // Maneja el error si ocurre alguno
+      console.error('Error al invocar la función Lambda:', err);
+      // Puedes mostrar un mensaje de error al usuario aquí
+    }
+  };
+
   const handleChange = (event) => {
     setRespuesta(event.target.value);
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    console.log('La respuesta es:', respuesta);
+    await handleInvocarLambda(); // Espera a que se complete la invocación antes de continuar
     setRespuesta("");
     setPregunta("");
-    // Lógica del efecto de máquina de escribir
+  };
+
+  const iniciarEfectoMaquinaEscribir = (texto) => {
     let currentIndex = -1;
     const typingEffect = setInterval(() => {
-      if (currentIndex < p2.length-1) {
-        setPregunta((prevPregunta) => prevPregunta + p2[currentIndex]);
+      if (currentIndex < texto.length-1) {
+        setPregunta(prevTexto => prevTexto + texto[currentIndex]);
         currentIndex++;
       } else {
         clearInterval(typingEffect); // Detiene el efecto de escritura
       }
     }, 30); // Velocidad de escritura en milisegundos
   };
+  
+  
 
   return (
     <div className="flex bg-lavanda h-full">
