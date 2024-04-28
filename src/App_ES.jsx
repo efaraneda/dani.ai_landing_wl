@@ -1,7 +1,4 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Evaluacion from "./pages/ES/Evaluacion";
-import Privacidad from "./pages/ES/Privacidad";
-import Terminos from "./pages/ES/Terminos";
 import Chat from "./pages/ES/Chat";
 import Login from "./pages/ES/Login";
 import "../public/VisbyRoundCF-Regular.woff";

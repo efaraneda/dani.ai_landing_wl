@@ -1,18 +1,15 @@
 import { CSSProperties, useState } from "react";
 
-import valley from "../../../../public/valley.jpeg";
+
 import SignUpForm from "./SignUpForm";
 import LogInForm from "./LogInForm";
 
 const AuthPage = () => {
   const [hasAccount, setHasAccount] = useState(false);
 
-  const backgroundImage = {
-    backgroundImage: `url(${valley})`, // Here due to variable
-  } as CSSProperties;
-
+  
   return (
-    <div className="background-image" style={backgroundImage}>
+    <div className="background-image" >
       <div className="background-gradient-dark">
         <div style={styles.formContainerStyle}>
           <div style={styles.titleStyle}>Olivia es tu asistente de convivencia escolar ;)</div>
