@@ -1,6 +1,6 @@
 import { CSSProperties, useState } from "react";
 
-import valley from "../../../assets/valley.jpeg";
+import valley from "../../../../public/valley.jpeg";
 import SignUpForm from "./SignUpForm";
 import LogInForm from "./LogInForm";
 
