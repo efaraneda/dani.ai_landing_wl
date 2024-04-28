@@ -1,11 +1,8 @@
-import Header from "../../components/Home/Header";
-import Hero from "../../components/Home/Hero";
-import Mid from "../../components/Home/Mid";
-import Links from "../../components/Home/Links";
-import SaberMas from "../../components/Home/SaberMas";
-import WidgetComponent from "../../components/Home/ComoFunciona";
-import Equipo from "../../components/Home/Equipo";
-
+import Header from "../../components/Olivia/Home/Header";
+import Hero from "../../components/Olivia/Home/Hero";
+import Diagram1 from "../../components/Olivia/Home/Diagram1";
+import Preview from "../../components/Olivia/Home/Preview";
+import Footer from "../../components/Olivia/Home/Footer";
 
 function Home() {
 
@@ -13,11 +10,9 @@ function Home() {
     <div>
       <Header />
       <Hero />
-      <Mid />
-      <WidgetComponent />
-      <Equipo />
-      <SaberMas />
-      <Links />
+      <Diagram1 />
+      <Preview />
+      <Footer />
     </div>
     
   )

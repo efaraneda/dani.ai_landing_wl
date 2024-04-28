@@ -53,16 +53,16 @@ function Form() {
   
 
   return (
-    <div className="flex bg-lavanda h-full">
+    <div className="flex bg-greenb2b h-full">
   <div className='w-full grid grid-cols-3' style={{ gridTemplateColumns: '10% auto 10%' }}> {/* Aplicar grid-cols-3 aquí */}
     <div className=''></div>
     <div className=' grid grid-rows-5'>  {/* Establecer diferentes tamaños de columna */}
       <div className=''></div>
-      <div className='mx-auto text-4xl text-gray-700'>{pregunta}</div>
+      <div className='mx-auto text-4xl text-white'>{pregunta}</div>
       <div></div>
       <div className='mx-auto w-full text-xl '>
         <form onSubmit={handleSubmit}>
-            <button type="submit" className='  bg-black text-white px-2 py-1 rounded hover:bg-gray-700'>
+            <button type="submit" className='  bg-white text-black font-bold px-2 py-1 rounded hover:bg-black hover:text-white'>
                     Enviar
                 </button>
 
@@ -72,8 +72,8 @@ function Form() {
             value={respuesta}
             onChange={handleChange}
             style={{ resize: 'none' , verticalAlign: 'bottom' }}
-            className="text-black w-full h-20 px-4 py-6 bg-lavanda border-b border-black focus:outline-none focus:border-b "></textarea>    
-            <label htmlFor="respuesta" className="flex flex-col items-center block text-gray-400 py-1">
+            className="text-white w-full h-20 px-4 py-6 bg-greenb2b border-b border-white focus:outline-none focus:border-b "></textarea>    
+            <label htmlFor="respuesta" className="flex flex-col items-center block text-gray-300 py-1">
             *Tip: Tu respuesta puede ser tan larga como necesites. . .
             </label>
 

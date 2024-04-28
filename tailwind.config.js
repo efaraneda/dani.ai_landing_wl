@@ -29,11 +29,15 @@ export default {
         oxford: "#000020",  
         bizantino: "#3353C3",
         resolution: "#0F2986",
-        whatsappbar: "#A4C2DE"
+        whatsappbar: "#A4C2DE",
+        yellowb2b: "#F5B501",
+        greenb2b:"#005148"
       
       },
       fontFamily: {
-        'default': ['Noto Sans', 'sans']      
+        'sans': ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif'],
+        'serif': ['ui-serif', 'Georgia', 'Cambria', 'Times New Roman', 'Times', 'serif'],
+        'mono': ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', 'monospace'],
       },
     },
   },
