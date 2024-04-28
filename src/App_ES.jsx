@@ -11,9 +11,6 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/evaluacion-psicologica" element={<Evaluacion />} />
-        <Route path="/privacidad" element={<Privacidad />} /> 
-        <Route path="/terminos" element={<Terminos />} />
         <Route path="/registro" element={<Login />} />
         <Route path="/chat" element={<Chat />} />
         <Route path="/form" element={<Form />} />

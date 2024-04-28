@@ -45,19 +45,25 @@ const Hero = () => {
                     </a>
 
                 </div>
-                <div className="text-green-b2b w-full justify-center text-center flex sm:flex-col mt-24 mx-auto mb-5 ">
-    <PiNumberCircleOne className='md:hidden flex items-center flex-col text-greenb2b w-auto h-[30px]'/>
-    <div className='font-bold text-lg mx-auto sm:py-6'>Selecciona la herramienta</div>
-    <div style={{ margin: '0 5%' }} className='flex items-center  flex-col'><div className='text-xl font-bold text-greenb2b md:hidden'>
-    <PiNumberCircleTwo className='md:hidden flex items-center  flex-col text-greenb2b w-auto h-[30px]'/>
-    </div><PiNumberCircleOne className=' items-center mb-2 text-greenb2b text-3xl sm:hidden'/></div>
-    <div className='font-bold text-lg mx-auto sm:py-6'>Añade o quita preguntas</div>
-    <div style={{ margin: '0 5%' }} className='flex items-center sm:flex-col'><div className='text-xl font-bold text-greenb2b md:hidden'><PiNumberCircleThree className='md:hidden flex items-center flex-col text-greenb2b w-auto h-[30px]'/>
-    </div><PiNumberCircleTwo className='text-greenb2b text-3xl sm:transform sm:hidden'/></div>
-    <div className='font-bold text-lg mx-auto sm:py-6'>Recibe el análisis</div>
-    <div style={{ margin: '0 5%' }} className='flex items-center sm:flex-col' ><PiNumberCircleFour className='md:hidden flex items-center flex-col text-greenb2b w-auto h-[30px]'/><PiNumberCircleThree className=' mb-2 text-greenb2b text-3xl sm:hidden'/></div>
-    <div className='font-bold text-lg mx-auto sm:py-6'>Toma acción preventiva</div>
+                <div className="text-green-b2b w-full justify-center text-center flex flex-col md:flex-row mt-24 mx-auto mb-5 ">
+    <div className='flex items-center flex-col'>
+        <PiNumberCircleOne className='text-greenb2b w-auto h-[30px]' />
+        <div className='font-bold text-lg mt-2'>Selecciona la herramienta</div>
+    </div>
+    <div className='flex items-center flex-col mt-6 md:mt-0 mx-4'>
+        <PiNumberCircleTwo className='text-greenb2b w-auto h-[30px]' />
+        <div className='font-bold text-lg mt-2'>Añade o quita preguntas</div>
+    </div>
+    <div className='flex items-center flex-col mt-6 md:mt-0 mx-4'>
+        <PiNumberCircleThree className='text-greenb2b w-auto h-[30px]' />
+        <div className='font-bold text-lg mt-2'>Recibe el análisis</div>
+    </div>
+    <div className='flex items-center flex-col mt-6 md:mt-0 mx-4'>
+        <PiNumberCircleFour className='text-greenb2b w-auto h-[30px]' />
+        <div className='font-bold text-lg mt-2 sm:mb-16'>Toma acción preventiva</div>
+    </div>
 </div>
+
 
 
             </div>
