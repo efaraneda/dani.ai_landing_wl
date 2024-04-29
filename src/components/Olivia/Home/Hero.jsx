@@ -31,11 +31,22 @@ const Hero = () => {
                     to="demo"
                     smooth={true}
                     duration={1550}
-                    className="sm:flex sm:flex-col text-center bg-yellowb2b font-semibold flex shadow-sm hover:bg-greenb2b hover:text-white  text-black hover:text-black hover:shadow-lg-black cursor-pointer text-base md:py-1 sm:py-2 md:px-3 sm:px-1 rounded-3xl"
+                    className="sm:hidden sm:flex sm:flex-col text-center bg-yellowb2b font-semibold flex shadow-sm hover:bg-greenb2b hover:text-white  text-black hover:text-black hover:shadow-lg-black cursor-pointer text-base md:py-1 sm:py-2 md:px-3 sm:px-1 rounded-3xl"
                     
                     >
                     Ver Demostración
-                    </Link>        <a
+                    </Link>        
+                    
+                    <Link 
+                    to="demo_sm"
+                    smooth={true}
+                    duration={1550}
+                    className="md:hidden sm:flex sm:flex-col text-center bg-yellowb2b font-semibold flex shadow-sm hover:bg-greenb2b hover:text-white  text-black hover:text-black hover:shadow-lg-black cursor-pointer text-base md:py-1 sm:py-2 md:px-3 sm:px-1 rounded-3xl"
+                    
+                    >
+                    Ver Demostración
+                    </Link>     
+                    <a
                     href="https://calendly.com/efaraneda/30min"
                     target="_blank" 
                     rel='nofollow'

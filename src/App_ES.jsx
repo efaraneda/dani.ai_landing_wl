@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Chat from "./pages/ES/Chat";
 import Login from "./pages/ES/Login";
-import "../public/VisbyRoundCF-Regular.woff";
+import "./VisbyRoundCF-Regular.woff";
 import Form from "./pages/ES/form";
 import Home from "./pages/ES/Home";
 

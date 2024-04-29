@@ -20,13 +20,14 @@ const Preview = () => {
             <div className="items-center flex flex-col">
                 <h1 className='text-center  font-semibold text-gray-800 sm:w-[130%] text-center md:text-6xl font-semibold sm:text-4xl'>
                 Tus alumnos no quieren responder formularios<br/></h1>
-                <h2 className='text-center md:text-xl  sm:text-2xl text-gray-500 mt-10 sm:w-[130%]'>
+                <h2 className='text-center md:text-xl  sm:text-2xl text-gray-500 mt-10 sm:w-[130%]' id="demo_sm">
                 Nuestra tecnología Smart garantiza la captura de datos de calidad y un análisis profundo. </h2>
                 
-                <div className="items-center justify-center  flex  gap-4 mt-4" id="form">
+                <div className="items-center justify-center  flex  gap-4 mt-4" id="demo">
                 
 
                 {mostrarBoton && (<Link 
+                    id="form"
                     to="form"
                     smooth={true}
                     duration={1050}
@@ -40,9 +41,8 @@ const Preview = () => {
 
             </div>
 
-            <div className="" >
+            <div className="">
             </div>      
-
         </div>
         <div className="mt-10" >
         <Form iniciar={iniciar}/>

@@ -124,7 +124,7 @@ function Form({ iniciar }) {
   }, [iniciar, autodemo]);
 
   return (
-    <div className="flex bg-greenb2b h-[80vh] sm:h-auto sm:min-h-[100vh]" >
+    <div className="flex bg-greenb2b h-[80vh] sm:h-auto sm:min-h-[100vh]">
   <div className='w-full grid grid-cols-3 md:mt-10' style={{ gridTemplateColumns: '10% auto 10%' }}> {/* Aplicar grid-cols-3 aquí */}
     <div className=''></div>
     <div className=' grid grid-rows-5'>  {/* Establecer diferentes tamaños de columna */}

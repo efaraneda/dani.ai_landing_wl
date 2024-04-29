@@ -57,7 +57,6 @@ const Header = () => {
                     className="hover:text-yellowb2b hover:shadow-lg-black cursor-pointer mx-auto"
                     onClick={closeMenu} // Close the menu when link is clicked
                     >
-                    Salud Mental
                     </Link>
                     <Link
                     to="Herramientas"
@@ -82,11 +81,21 @@ const Header = () => {
                     to="demo"
                     smooth={true}
                     duration={1550}
-                    className="text-center bg-yellowb2b font-semibold flex shadow-sm hover:bg-greenb2b hover:text-white  text-gray-700 hover:text-black hover:shadow-lg-black cursor-pointer text-base md:py-1 sm:py-2 md:px-3 sm:px-1 rounded-3xl"
+                    className="sm:hidden text-center bg-yellowb2b font-semibold flex shadow-sm hover:bg-greenb2b hover:text-white  text-gray-700 hover:text-black hover:shadow-lg-black cursor-pointer text-base md:py-1 sm:py-2 md:px-3 sm:px-1 rounded-3xl"
                     onClick={toggleMenu}
                     >
                     Probar Demo
-                    </Link>        <a
+                    </Link>        
+                     <Link 
+                    to="demo_sm"
+                    smooth={true}
+                    duration={1550}
+                    className="md:hidden text-center bg-yellowb2b font-semibold flex shadow-sm hover:bg-greenb2b hover:text-white  text-gray-700 hover:text-black hover:shadow-lg-black cursor-pointer text-base md:py-1 sm:py-2 md:px-3 sm:px-1 rounded-3xl"
+                    onClick={toggleMenu}
+                    >
+                    Probar Demo
+                    </Link>        
+                    <a
                     href="https://calendly.com/efaraneda/30min"
                     target="_blank" 
                     rel='nofollow'
