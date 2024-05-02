@@ -38,7 +38,7 @@ const Header = () => {
         <div className="py-2 sm:py-1"></div>
         <div className="flex">
             <div className="xk:w-1/6 flex items-center sm:py-2">
-                <img src="logo.png" className='h-auto max-h-[40px] min-h-[20px] sm:max-w-[190px]' alt="Theragen" />
+                <img src="logo-b2b.png" className='h-auto max-h-[40px] min-h-[20px] sm:max-w-[190px]' alt="Theragen" />
                 <a className="text-2xl text-black font-medium ">
                 
                 </a>

@@ -3,7 +3,7 @@ import { useContext, useState } from "react";
 import { useIsMobile } from "../functions/isMobile";
 import TextInput from "./components/TextInput";
 import Button from "./components/Button";
-import axios from 'axios';
+import invocarLambda from './register';
 
 interface SignUpFormProps {
   onHasAccount: () => void;
@@ -19,35 +19,41 @@ const SignUpForm = (props: SignUpFormProps) => {
 
   const isMobile: boolean = useIsMobile();
 
-  const onSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+  const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    if (IdColegio === "SPCHICL"){
+    if (IdColegio === "SPCHICL2") {
       try {
-        const response = axios.get(`https://4r767aocla64zt774ccf447n6q0bgmxj.lambda-url.us-east-1.on.aws/?usuario=${usuario}&colegio=${IdColegio}&password=${contraseña}`);
-        localStorage.setItem('Olivia-user',usuario)
-        alert('Username created successfully!');
+        const response = await invocarLambda(usuario, contraseña,IdColegio); // Invoca la función Lambda
+        
+        console.log(response)
+        if (!response.includes('ya existe!')) {
+          localStorage.setItem('Olivia-user', usuario);
+          alert('Usuario creado exitosamente!');
+          window.location.href = '/form';
+        } else {
+          setMensaje(response);
+         } 
       } catch (error) {
-          console.error('Error:', error);
-          setMensaje('Error creating username. Please try again.');
+        console.error('Error:', error);
+        setMensaje('Error creando el usuario. Por favor intenta de nuevo.');
       }
-      window.location.href = '/chat';
-    } else{
-      setMensaje("*Código incorrecto, verifica con tu profesor")
-
+    } else {
+      setMensaje("*Código incorrecto, verifica con tu profesor");
     }
-
+  }
+  
     
     
 
     
   
 
-  }
+  
 
 
   return (
     <div>
-      <div className="form-title">Regístrate para comenzar</div>
+      <div className="text-white text-3xl mb-8">Regístrate para comenzar</div>
 
 
       <form onSubmit={onSubmit}>
@@ -77,7 +83,8 @@ const SignUpForm = (props: SignUpFormProps) => {
     placeholder="Pídelo a tu profesor"
     style={{
       width: isMobile ? "100%" : "calc(50% - 6px)",
-      float: "left",
+      float: "left"
+
     }}
     onChange={(e) => setIdColegio(e.target.value)}
   />
@@ -87,10 +94,10 @@ const SignUpForm = (props: SignUpFormProps) => {
           style={{
             width: isMobile ? "100%" : "calc(50% - 6px)",
             float: "right",
-            backgroundColor: "#3353C3"
+            backgroundColor: "black"
           }}
         >
-          COMENZAR!
+          COMENZAR
         </Button>
       </form>{mensaje && (
           <div className="flex w-full" style={{ color: "red", marginTop: "5px" }}>{mensaje}</div>

@@ -33,7 +33,6 @@ const styles = {
     border: "none",
     outline: "none",
     borderRadius: "8px",
-    fontFamily: "VisbyRoundCF-DemiBold",
     cursor: "pointer",
     transition: "all .44s ease",
     WebkitTransition: "all .44s ease",

@@ -20,9 +20,9 @@ const LogInForm = (props: LogInFormProps) => {
 
   const onSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    if (IdColegio === "SPCHICL"){
+    if (IdColegio === "SPCHICL2"){
       localStorage.setItem('nickname_ol',username)
-      window.location.href = '/chat';
+      window.location.href = '/form';
     } else{
       setMensaje("*Código de Colegio o Usuario incorrecto, verifica con tu profesor")
 

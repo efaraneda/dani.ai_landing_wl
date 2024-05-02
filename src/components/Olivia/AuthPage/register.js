@@ -1,8 +1,8 @@
 import  'aws-sdk/dist/aws-sdk.js';
 
-import { AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY } from '../../../env.js';
+import { AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY } from '../../../../env.js';
 
-const invocarLambda = async (usuario, mensaje) => {
+const invocarLambda = async (usuario, contraseña, idcolegio) => {
   try {
     // Configura la región
 
@@ -17,11 +17,12 @@ const invocarLambda = async (usuario, mensaje) => {
 
     // Define los parámetros para la llamada a la función Lambda
     const params = {
-      FunctionName: 'prod_olivia', // Nombre de tu función Lambda
+      FunctionName: 'prod', // Nombre de tu función Lambda
       InvocationType: 'RequestResponse', // Puedes usar 'Event' si no necesitas una respuesta inmediata
       Payload: JSON.stringify({
         usuario: usuario,
-        mensaje: mensaje
+        contraseña: contraseña,
+        colegio: idcolegio
       })
     };
 

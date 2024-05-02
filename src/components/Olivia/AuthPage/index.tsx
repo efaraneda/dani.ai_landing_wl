@@ -9,10 +9,10 @@ const AuthPage = () => {
 
   
   return (
-    <div className="background-image" >
-      <div className="background-gradient-dark">
+    <div className="bg-gray-800 h-screen" >
+      <div className="">
         <div style={styles.formContainerStyle}>
-          <div style={styles.titleStyle}>Olivia es tu asistente de convivencia escolar ;)</div>
+          <div style={styles.titleStyle}></div>
 
           {hasAccount ? (
             <LogInForm onHasNoAccount={() => setHasAccount(false)} />
@@ -33,7 +33,6 @@ const styles = {
   } as CSSProperties,
   titleStyle: {
     fontSize: "24px",
-    fontFamily: "VisbyRoundCF-Heavy",
     letterSpacing: "0.5px",
     color: "white",
     paddingBottom: "11vw",
