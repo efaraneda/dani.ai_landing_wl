@@ -6,10 +6,8 @@ import './index.css';
 
 const lang = navigator.language || navigator.userLanguage; // Handle fallback for older browsers
 
-
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-   <App_ES />
+    {(lang === 'es' || lang.includes('es-')) ? <App_ES /> : <App_EN />}
   </React.StrictMode>
 );

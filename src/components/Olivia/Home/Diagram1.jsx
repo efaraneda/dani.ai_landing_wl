@@ -21,29 +21,23 @@ const Hero = () => {
                 <div className="shadow-2xl -ml-5 h-[90%]">
 
                     <div className="font-bold text-xl text-greenb2b ml-8 mt-4 ">
-                    Jefferson School
+                    Jefferson High School
                     </div>
                     <div className="font-semibold text-greenb2b ml-7 mt-4 flex gap-2 grid grid-row-2">
                         <div className='flex gap-2'>
-                            <Checkbox/>2° Medio-C
+                            <Checkbox/>2° Medio-B
                         </div>
                         <div className='ml-6 flex gap-2 opacity-40'>
                             <Checkbox/> Herramientas aplicadas 
                         </div>
                         <div className='ml-11 flex gap-2 opacity-40'>
-                            <Checkbox/>Sociograma Smart 
+                            <Checkbox/> Índice de Convivencia
                         </div>
                         <div className='ml-11 flex gap-2 opacity-40'>
-                            <Checkbox/>Evaluación de Clima Smart 
-                        </div>
-                        <div className='ml-11 flex gap-2 opacity-40'>
-                            <Checkbox/>Evaluación Psicológica Smart
+                            <Checkbox/> Índice de Bienestar
                         </div>
                         <div className='ml-6 flex gap-2'>
-                            <Checkbox/>Análisis de datos
-                        </div>
-                        <div className='ml-6 flex gap-2'>
-                            <Checkbox/>Derivación
+                            <Checkbox/> Análisis de datos & reportes
                         </div>
                     </div>
                     
@@ -65,11 +59,11 @@ const Hero = () => {
                         
                     <div className='py-6'></div>
                         
-                    <div className='items-center flex justify-center gap-16'>
+                    <div className='items-center flex justify-center gap-12'>
 
                             <div className='text-center font-semibold text-gray-400 text-lg'>
                             
-                                Índice de Clima Escolar<Dona1 ></Dona1>
+                                Índice de Convivencia<Dona1 ></Dona1>
                            </div>
                            <div className='text-center font-semibold text-gray-400 text-lg'>
 
@@ -89,7 +83,7 @@ const Hero = () => {
                         <div className='items-center  justify-center flex flex-col'>
                             <div className='py-2'></div>
                             <div className='text-center font-semibold text-gray-400 text-lg'>
-                                Factores de Riesgo v/s Factores Protectores
+                                Factores de Riesgo v/s Protectores
                             </div>
                             <div className="text-xs ">
                         <Bar></Bar>

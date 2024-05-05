@@ -20,29 +20,23 @@ const Hero = () => {
                 <div className="shadow-2xl -ml-5 h-[90%]">
 
                     <div className="font-bold text-xl text-greenb2b ml-8 mt-4 ">
-                    Jefferson School
+                    Jefferson High School
                     </div>
                     <div className="font-semibold text-greenb2b ml-7 mt-4 flex gap-2 grid grid-row-2">
                         <div className='flex gap-2'>
-                            <Checkbox/>70th grade
+                            <Checkbox/>7th grade
                         </div>
                         <div className='ml-6 flex gap-2 opacity-40'>
-                            <Checkbox/> Herramientas aplicadas 
+                            <Checkbox/> Applied Tools 
                         </div>
                         <div className='ml-11 flex gap-2 opacity-40'>
-                            <Checkbox/>Sociograma Smart 
+                            <Checkbox/> Climate Index
                         </div>
                         <div className='ml-11 flex gap-2 opacity-40'>
-                            <Checkbox/>Evaluación de Clima Smart 
-                        </div>
-                        <div className='ml-11 flex gap-2 opacity-40'>
-                            <Checkbox/>Evaluación Psicológica Smart
+                            <Checkbox/> Student Wellness Index
                         </div>
                         <div className='ml-6 flex gap-2'>
-                            <Checkbox/>Análisis de datos
-                        </div>
-                        <div className='ml-6 flex gap-2'>
-                            <Checkbox/>Derivación
+                            <Checkbox/> Data Analysis & Reports
                         </div>
                     </div>
                     

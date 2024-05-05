@@ -38,13 +38,13 @@ const Header = () => {
         <div className="py-2 sm:py-1"></div>
         <div className="flex">
             <div className="xk:w-1/6 flex items-center sm:py-2">
-                <img src="logo-b2b.png" className='h-auto max-h-[40px] min-h-[20px] sm:max-w-[190px]' alt="Theragen" />
+                <img src="logo.png" className='h-auto max-h-[40px] min-h-[20px] sm:max-w-[190px]' alt="Theragen" />
                 <a className="text-2xl text-black font-medium ">
                 
                 </a>
             </div>
 
-          <div className="self-end ml-auto">
+          <div className="self-end ml-auto items-center flex flex-col self-center	mr-2 -mb-0.5">
             <nav
                 className={`fixed text-black font-semibold bg-white sm:w-[80%]   h-full ${
                 showMenu ? "left-0" : "-left-full"
@@ -62,14 +62,14 @@ const Header = () => {
                     to="Herramientas"
                     smooth={true}
                     duration={1350}
-                    className="hover:text-yellowb2b hover:shadow-lg-black cursor-pointer mx-auto flex"
+                    className="hidden hover:text-yellowb2b hover:shadow-lg-black cursor-pointer mx-auto flex"
                     onClick={closeMenu} // Close the menu when link is clicked
                     >Analítica Escolar</Link>
                     <Link
                     to="Analitica"
                     smooth={true}
                     duration={1350}
-                    className=" hover:text-yellowb2b hover:shadow-lg-black md:mr-14  cursor-pointer mx-auto"
+                    className="hidden hover:text-yellowb2b hover:shadow-lg-black md:mr-14  cursor-pointer mx-auto"
                     onClick={closeMenu} // Close the menu when link is clicked
                     >
                     Herramientas
@@ -77,37 +77,45 @@ const Header = () => {
 
                 <div className="items-center justify-center  md:my-auto flex sm:flex-col gap-4">
                 
-                <Link 
+                  <Link 
                     to="demo"
                     smooth={true}
                     duration={1550}
-                    className="sm:hidden text-center bg-yellowb2b font-semibold flex shadow-sm hover:bg-greenb2b hover:text-white  text-gray-700 hover:text-black hover:shadow-lg-black cursor-pointer text-base md:py-1 sm:py-2 md:px-3 sm:px-1 rounded-3xl"
+                    className="sm:hidden text-center bg-yellowb2b font-semibold flex shadow-sm hover:bg-greenb2b hover:text-white  text-black hover:text-black hover:shadow-lg-black cursor-pointer text-base md:py-1 sm:py-2 md:px-3 sm:px-1 rounded-3xl"
                     onClick={toggleMenu}
-                    >
-                    Probar Demo
-                    </Link>        
-                     <Link 
-                    to="demo_sm"
-                    smooth={true}
-                    duration={1550}
-                    className="md:hidden text-center bg-yellowb2b font-semibold flex shadow-sm hover:bg-greenb2b hover:text-white  text-gray-700 hover:text-black hover:shadow-lg-black cursor-pointer text-base md:py-1 sm:py-2 md:px-3 sm:px-1 rounded-3xl"
-                    onClick={toggleMenu}
-                    >
-                    Probar Demo
-                    </Link>        
-                    <a
-                    href="https://calendly.com/efaraneda/30min"
-                    target="_blank" 
-                    rel='nofollow'
-                    className="text-center bg-white text-gray-700 font-semibold hover:bg-greenb2b hover:text-white flex shadow-sm  text-base  hover:text-black hover:shadow-lg-black cursor-pointer md:py-1 sm:py-2 md:px-3 sm:px-1 rounded-3xl border border-black"
-                    onClick={toggleMenu}>
-                    Agendar Reunión
-                    </a>
+                  >
+                  Watch Demo
+                  </Link>        
+                    <Link 
+                  to="demo_sm"
+                  smooth={true}
+                  duration={1550}
+                  className="md:hidden text-center bg-yellowb2b font-semibold flex shadow-sm hover:bg-greenb2b hover:text-white  text-gray-700 hover:text-black hover:shadow-lg-black cursor-pointer text-base md:py-1 sm:py-2 md:px-3 sm:px-1 rounded-3xl"
+                  onClick={toggleMenu}
+                  >
+                  Watch Demo
+                  </Link>        
+                  <a
+                  href="https://calendly.com/efaraneda/30min"
+                  target="_blank" 
+                  rel='nofollow'
+                  className="text-center bg-white text-gray-700 font-semibold hover:bg-greenb2b hover:text-white flex shadow-sm  text-base  hover:text-black hover:shadow-lg-black cursor-pointer md:py-1 sm:py-2 md:px-3 sm:px-1 rounded-3xl border border-black"
+                  >
+                  Talk to Sales
+                  </a>
                 </div>
-            </nav>
+                
+            </nav><a
+                  href="https://calendly.com/efaraneda/30min"
+                  target="_blank" 
+                  rel='nofollow'
+                  className="items-center md:hidden text-center bg-greenb2b text-white font-semibold hover:bg-white hover:text-greenb2b flex text-base  text-black cursor-pointer sm:py-1  sm:px-2 rounded-3xl border hover:border-black"
+                  >
+                  Talk to Sales
+                  </a>
           </div>
       </div>            
-      <button onClick={toggleMenu} className="md:hidden text-2xl -ml-6 text-black">
+      <button onClick={toggleMenu} className="hidden text-2xl -ml-6 text-black">
             {showMenu ? <RiCloseLine /> : <RiMenu3Fill />}
           </button>
       <div className=""></div>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Form from '../../../src/components/Olivia/Home/functionality/form';
+import Form from './form';
 import { Link } from "react-scroll";
 
 const Preview = () => {
@@ -18,10 +18,10 @@ const Preview = () => {
             <div className=''> {/*Información CTA*/}
             </div>
             <div className="items-center flex flex-col">
-                <h1 className='text-center  font-semibold text-gray-800 sm:w-[130%] text-center md:text-6xl font-semibold sm:text-4xl'>
-                Tus alumnos no quieren responder formularios<br/></h1>
+                <h1 className='text-center  font-semibold text-gray-800 sm:w-[140%] text-center md:text-6xl font-semibold sm:text-4xl'>
+                Students Do Not Want<br className='sm:hidden'/> to Fill Out Forms</h1>
                 <h2 className='text-center md:text-xl  sm:text-2xl text-gray-500 mt-10 sm:w-[130%]' id="demo_sm">
-                Nuestra tecnología Smart garantiza la captura de datos de calidad y un análisis profundo. </h2>
+                Our Smart Forms offer enhanced data gathering capabilities and an engaging experience. </h2>
                 
                 <div className="items-center justify-center  flex  gap-4 mt-4" id="demo">
                 
@@ -31,10 +31,10 @@ const Preview = () => {
                     to="form"
                     smooth={true}
                     duration={1050}
-                    className="text-center bg-greenb2b text-white font-semibold hover:bg-white hover:text-greenb2b flex shadow-sm  text-base  hover:text-black hover:shadow-lg-black cursor-pointer md:py-1 sm:py-2 md:px-3 md:-ml-2 sm:px-4 rounded-3xl border border-black"
+                    className="text-center bg-greenb2b text-white font-semibold hover:bg-white hover:text-greenb2b flex shadow-sm  text-base  hover:text-black hover:shadow-lg-black cursor-pointer md:py-1 sm:py-2 md:px-3 md:-ml-2 sm:px-4 rounded-3xl border hover:border-black"
                     onClick={handleClick}
                     >
-                    Pongámoslo a prueba
+                    Try it Yourself
                     </Link>)}
 
                 </div>
